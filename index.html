@@ -43,11 +43,11 @@ const dash=[[],[6,3],[2,3],[8,3,2,3],[1,2]];
 const dstyle=["solid","dashed","dotted","dashed","dotted"];
 const Mlab={"0":"Poolside","1":"1m springboard","3":"3m springboard"};
 const Mcol={"0":"#2a78d6","1":"#eb6834","2":"#eb6834","3":"#1baf7a"};
-let charts=[],mode="corr",posmode="pct",bandChartInstance=null;
+let charts=[],mode="corr",posmode="pct",bandChartInstance=null,strengthsChartInstance=null;
 const cs=getComputedStyle(document.documentElement);
 const col=n=>cs.getPropertyValue(n).trim();
 function xlabels(){return DATA.meetorder.map(m=>[DATA.short[m],m]);}
-function destroyCharts(){charts.forEach(c=>c.destroy());charts=[];if(bandChartInstance){bandChartInstance.destroy();bandChartInstance=null;}}
+function destroyCharts(){charts.forEach(c=>c.destroy());charts=[];if(bandChartInstance){bandChartInstance.destroy();bandChartInstance=null;}if(strengthsChartInstance){strengthsChartInstance.destroy();strengthsChartInstance=null;}}
 
 function posChart(el,pos){
   let data,ytitle,yopts;
@@ -87,19 +87,33 @@ function diveChart(el,codes,dives){
 }
 
 
-function strengthsChart(el,summary){
-  const labels=summary.map(s=>s.code+(s.n<4?" (n="+s.n+")":""));
+function computeStrengths(d, includedIdx, useRaw){
+  const summary=[];
+  for(const M of Object.keys(d.dives)){
+    for(const c of Object.keys(d.dives[M])){
+      const series=d.dives[M][c];
+      const vals=[];
+      includedIdx.forEach(i=>{const e=series[i]; if(e) vals.push(useRaw?e.raw:e.corr);});
+      if(vals.length) summary.push({code:c,M,mean:vals.reduce((a,b)=>a+b,0)/vals.length,n:vals.length});
+    }
+  }
+  summary.sort((a,b)=>b.mean-a.mean);
+  return summary;
+}
+
+function strengthsChart(el,summary,useRaw){
+  const labels=summary.map(s=>s.code+" (n="+s.n+")");
   const vals=summary.map(s=>s.mean);
   const colors=summary.map(s=>Mcol[s.M]);
   const h=Math.max(160,summary.length*28+40);
   el.parentElement.style.height=h+"px";
-  charts.push(new Chart(el,{type:"bar",data:{labels,datasets:[{data:vals,backgroundColor:colors,borderRadius:4,barThickness:18}]},
+  strengthsChartInstance=new Chart(el,{type:"bar",data:{labels,datasets:[{data:vals,backgroundColor:colors,borderRadius:4,barThickness:18}]},
     options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
       plugins:{legend:{display:false},
         tooltip:{callbacks:{title:i=>summary[i[0].dataIndex].code,
-          label:it=>{const s=summary[it.dataIndex];return ["avg vs field: "+(s.mean>=0?"+":"")+s.mean.toFixed(2),"across "+s.n+" meet"+(s.n>1?"s":""),Mlab[s.M]];}}}},
-      scales:{x:{title:{display:true,text:"avg vs field average (all meets)",color:col("--faint"),font:{size:10}},ticks:{color:col("--faint"),font:{size:10}},grid:{color:c=>c.tick.value===0?col("--zero"):col("--grid"),lineWidth:c=>c.tick.value===0?1.5:1}},
-        y:{ticks:{color:col("--ink"),font:{size:11,family:"ui-monospace,Menlo,monospace"}},grid:{display:false}}}}}));
+          label:it=>{const s=summary[it.dataIndex];return [(useRaw?"avg raw total: ":"avg vs field: ")+(!useRaw&&s.mean>=0?"+":"")+s.mean.toFixed(2),"across "+s.n+" selected meet"+(s.n>1?"s":""),Mlab[s.M]];}}}},
+      scales:{x:{title:{display:true,text:useRaw?"avg raw 3-judge total (selected meets)":"avg vs field average (selected meets)",color:col("--faint"),font:{size:10}},ticks:{color:col("--faint"),font:{size:10}},grid:{color:c=>(!useRaw&&c.tick.value===0)?col("--zero"):col("--grid"),lineWidth:c=>(!useRaw&&c.tick.value===0)?1.5:1}},
+        y:{ticks:{color:col("--ink"),font:{size:11,family:"ui-monospace,Menlo,monospace"}},grid:{display:false}}}}});
 }
 
 
@@ -139,7 +153,8 @@ function render(name){
   const nMeets=d.pos.filter(p=>p.better!=null).length;
   let h="<h2>"+name+"</h2><p class=sub>"+d.club+" · "+nMeets+" meet"+(nMeets>1?"s":"")+" with full field data</p>";
   if(nMeets<2){h+="<div class=empty>Only one meet on record — no progression to show. Per-dive detail below.</div>";}
-  h+="<h3>Strengths &amp; weaknesses (all dives, ranked)</h3>";
+  h+="<h3>Strengths &amp; weaknesses (all dives, ranked)</h3><p class=sub style='margin:-2px 0 6px'>Untick meets to see how the ranking shifts over a different window.</p>";
+  h+="<div class=row id=meetCbs style='margin:6px 0 4px'></div>";
   h+="<div class=legend><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#2a78d6'></span>poolside</span><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#eb6834'></span>1m</span><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#1baf7a'></span>3m</span></div>";
   h+="<div class=panel style='height:auto'><canvas id=strc></canvas></div>";
   h+="<h3>Score vs field spread</h3><p class=sub style='margin:-2px 0 6px'>Pick a dive to see the diver's score against the field's middle 50% (shaded) for that dive, at each meet.</p>";
@@ -154,7 +169,19 @@ function render(name){
   h+='<p class=note>Field standing reconstructed from summed DD-points; matches official placings. Percentage view normalises for field size (good across meets) but flatters tiny fields — e.g. 1st of 2 shows as top 50%. Actual-position view shows the real placing (1st at top) but does not account for how many competed. Per-dive severity-corrected = points above/below that meet\'s field average for that dive. Four meets, Nov 2025 – Jul 2026.</p>';
   document.getElementById("main").innerHTML=h;
   posChart(document.getElementById("posc"),d.pos);
-  strengthsChart(document.getElementById("strc"),d.strengths);
+  const cbHost=document.getElementById("meetCbs");
+  cbHost.innerHTML=d.meets.map(m=>{
+    const idx=DATA.meetorder.indexOf(m);
+    return "<label class=toggle style='margin:0 10px 4px 0;font-size:12px'><input type=checkbox class=meetcb data-idx='"+idx+"' checked> "+(DATA.short[m]||m)+"</label>";
+  }).join("");
+  function drawStrengths(){
+    if(strengthsChartInstance){strengthsChartInstance.destroy();strengthsChartInstance=null;}
+    const idxs=[...cbHost.querySelectorAll(".meetcb:checked")].map(el=>parseInt(el.dataset.idx));
+    const summary=computeStrengths(d,idxs,mode==="raw");
+    strengthsChart(document.getElementById("strc"),summary,mode==="raw");
+  }
+  cbHost.querySelectorAll(".meetcb").forEach(cb=>cb.onchange=drawStrengths);
+  drawStrengths();
   const bandOpts=[];
   for(const M of Object.keys(d.dives).sort()){for(const c of Object.keys(d.dives[M])){bandOpts.push({M,c});}}
   const bandSel=document.getElementById("bandSel");
