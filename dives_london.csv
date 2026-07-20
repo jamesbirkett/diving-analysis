@@ -1,0 +1,961 @@
+meet,event,bracket,gender,dref,diver,club,round,dive_code,position,M,DD,j1,j2,j3,total
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",1,10,A,3,1.2,5.5,5.0,4.5,15.0
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",2,11,C,3,1.2,6.5,5.5,7.0,19.0
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",3,20,A,3,1.4,6.0,5.0,4.5,15.5
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",4,21,C,3,1.3,7.0,5.5,6.0,18.5
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",5,101,A,0,1.0,4.5,5.5,4.0,14.0
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",6,200,C,0,1.0,5.5,5.0,5.0,15.5
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",7,101,C,0,1.0,0.0,0.0,0.0,0.0
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",8,100,B,0,1.0,0.0,0.0,0.0,0.0
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",9,100,A,1,1.0,5.5,5.0,4.5,15.0
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",10,200,A,1,1.0,6.0,5.0,5.0,16.0
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",11,101,C,1,1.2,4.0,3.0,2.5,9.5
+meet6,19,E1,F,16962,Octavia Steer,"Cambridge Dive Team, 2018",12,20,A,1,1.0,5.0,6.5,6.0,17.5
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",1,10,A,3,1.2,5.0,4.0,3.5,12.5
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",2,11,C,3,1.2,4.0,3.5,3.5,11.0
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",3,20,A,3,1.4,3.5,4.0,4.0,11.5
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",4,21,C,3,1.3,3.0,3.0,2.5,8.5
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",5,101,A,0,1.0,4.0,4.5,4.5,13.0
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",6,200,C,0,1.0,5.5,5.5,4.5,15.5
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",7,101,C,0,1.0,3.5,4.0,5.5,13.0
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",8,100,B,0,1.0,4.5,4.0,3.5,12.0
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",9,100,A,1,1.0,3.5,4.0,4.0,11.5
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",10,200,A,1,1.0,6.0,5.0,6.0,17.0
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",11,401,C,1,1.4,3.5,4.0,4.0,11.5
+meet6,19,E1,F,16955,Reeva Brown,"Dive London Aquatics Club, 2018",12,20,A,1,1.0,5.0,4.5,5.0,14.5
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",1,10,A,3,1.2,6.5,6.5,6.5,19.5
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",2,11,C,3,1.2,7.0,6.5,7.5,21.0
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",3,20,A,3,1.4,5.5,5.0,5.5,16.0
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",4,21,C,3,1.3,6.0,6.0,5.5,17.5
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",5,101,A,0,1.0,6.0,5.5,6.5,18.0
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",6,200,C,0,1.0,7.5,6.5,7.0,21.0
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",7,101,C,0,1.0,7.0,7.0,5.5,19.5
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",8,100,B,0,1.0,6.0,7.0,6.0,19.0
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",9,100,A,1,1.0,6.5,5.5,7.5,19.5
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",10,200,A,1,1.0,5.5,6.5,5.5,17.5
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",11,103,C,1,1.6,4.5,5.5,5.5,15.5
+meet6,20,E2,F,15999,Lyla Hill,"Corby Steel Diving Club, 2017",12,201,C,1,1.5,4.0,4.0,4.0,12.0
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",1,10,A,3,1.2,6.0,5.5,6.0,17.5
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",2,11,C,3,1.2,6.0,5.5,5.5,17.0
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",3,20,A,3,1.4,6.5,6.0,5.5,18.0
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",4,21,C,3,1.3,5.5,4.5,5.5,15.5
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",5,101,A,0,1.0,7.5,7.5,7.0,22.0
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",6,200,C,0,1.0,8.0,7.0,7.0,22.0
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",7,101,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",8,100,B,0,1.0,7.5,7.5,7.5,22.5
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",9,100,A,1,1.0,6.0,5.0,6.0,17.0
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",10,200,A,1,1.0,7.0,6.0,6.5,19.5
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",11,401,B,1,1.5,6.0,5.0,5.0,16.0
+meet6,20,E2,F,16437,Ines Hernandez Chmurowicz,"Dive London Aquatics Club, 2017",12,201,B,1,1.6,4.0,4.0,4.0,12.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",1,10,A,3,1.2,7.5,7.0,6.5,21.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",2,11,C,3,1.2,7.5,6.5,6.0,20.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",3,20,A,3,1.4,7.0,6.5,6.5,20.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",4,21,C,3,1.3,5.5,5.5,6.0,17.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",5,101,A,0,1.0,5.5,5.5,5.0,16.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",6,200,C,0,1.0,6.5,6.5,5.5,18.5
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",7,101,C,0,1.0,5.5,6.0,6.0,17.5
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",8,100,B,0,1.0,5.5,5.0,5.5,16.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",9,100,A,1,1.0,6.0,5.5,6.5,18.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",10,200,A,1,1.0,5.0,5.0,5.5,15.5
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",11,401,C,1,1.4,5.5,7.0,6.5,19.0
+meet6,20,E2,F,16430,Misha Colton,"Albatross Diving Club Reading, 2017",12,201,C,1,1.5,4.5,4.0,5.0,13.5
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",1,10,A,3,1.2,4.5,4.0,4.5,13.0
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",2,11,C,3,1.2,5.5,5.5,6.0,17.0
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",3,20,A,3,1.4,7.0,6.5,7.0,20.5
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",4,21,C,3,1.3,4.0,4.0,4.5,12.5
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",5,101,A,0,1.0,4.5,4.0,4.5,13.0
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",6,200,C,0,1.0,7.0,6.0,4.5,17.5
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",7,101,C,0,1.0,5.0,4.5,5.5,15.0
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",8,100,B,0,1.0,6.0,6.5,6.0,18.5
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",9,100,A,1,1.0,5.5,6.0,5.0,16.5
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",10,200,A,1,1.0,4.5,6.0,5.5,16.0
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",11,401,B,1,1.5,5.0,5.5,6.0,16.5
+meet6,20,E2,F,16441,Jessica Low,"Southend Diving, 2017",12,201,B,1,1.6,5.5,6.0,5.0,16.5
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",1,10,A,3,1.2,6.5,7.0,6.0,19.5
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",2,11,C,3,1.2,6.5,6.5,7.0,20.0
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",3,20,A,3,1.4,6.0,6.5,6.0,18.5
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",4,21,C,3,1.3,5.5,5.0,5.0,15.5
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",5,101,A,0,1.0,5.0,6.0,6.0,17.0
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",6,200,C,0,1.0,6.0,6.5,5.5,18.0
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",7,101,C,0,1.0,2.0,3.0,3.5,8.5
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",8,100,B,0,1.0,6.0,6.5,6.5,19.0
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",9,100,A,1,1.0,5.5,6.5,6.0,18.0
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",10,200,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",11,401,C,1,1.4,3.0,3.5,4.0,10.5
+meet6,20,E2,F,16780,Ella-Grace McCardle,"Southend Diving, 2017",12,201,C,1,1.5,3.5,4.0,5.0,12.5
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",1,10,A,3,1.2,6.5,6.0,5.0,17.5
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",2,11,C,3,1.2,5.5,5.0,5.5,16.0
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",3,20,A,3,1.4,6.0,4.5,5.0,15.5
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",4,21,C,3,1.3,7.0,5.0,7.0,19.0
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",5,101,A,0,1.0,5.5,4.0,4.5,14.0
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",6,200,C,0,1.0,7.5,5.5,5.5,18.5
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",7,101,C,0,1.0,3.0,4.5,3.5,11.0
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",8,100,B,0,1.0,5.0,3.5,5.0,13.5
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",9,100,A,1,1.0,6.5,5.0,5.5,17.0
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",10,200,A,1,1.0,6.0,5.0,5.0,16.0
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",11,101,C,1,1.2,6.0,6.5,6.0,18.5
+meet6,20,E2,F,16846,Cosima Humphrey,"Cambridge Dive Team, 2017",12,201,C,1,1.5,4.5,5.0,4.5,14.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",1,10,A,3,1.2,6.5,6.0,5.5,18.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",2,11,C,3,1.2,4.5,4.5,5.0,14.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",3,20,A,3,1.4,6.0,5.0,5.5,16.5
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",4,21,C,3,1.3,4.5,3.5,3.0,11.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",5,101,A,0,1.0,4.0,2.5,2.5,9.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",6,200,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",7,101,C,0,1.0,6.0,6.5,4.5,17.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",8,100,B,0,1.0,5.0,6.0,6.0,17.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",9,100,A,1,1.0,5.5,5.0,5.0,15.5
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",10,200,A,1,1.0,6.0,6.5,5.5,18.0
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",11,401,C,1,1.4,7.0,7.0,6.5,20.5
+meet6,20,E2,F,16289,Georgie Rogers,"Tunbridge Wells Diving Club, 2017",12,201,C,1,1.5,4.5,4.5,4.0,13.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",1,10,A,3,1.2,6.5,4.5,5.0,16.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",2,11,C,3,1.2,5.0,5.0,4.5,14.5
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",3,20,A,3,1.4,5.0,4.0,5.0,14.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",4,21,C,3,1.3,5.5,4.0,5.5,15.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",5,101,A,0,1.0,5.5,5.5,5.0,16.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",6,200,C,0,1.0,7.0,5.5,5.0,17.5
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",7,101,C,0,1.0,6.0,6.0,5.0,17.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",8,100,B,0,1.0,6.5,7.0,6.5,20.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",9,100,A,1,1.0,7.0,6.0,6.5,19.5
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",10,200,A,1,1.0,6.5,6.0,6.5,19.0
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",11,101,C,1,1.2,6.0,4.5,3.0,13.5
+meet6,20,E2,F,16844,Una Grimes,"Star Diving Club Guildford, 2017",12,20,A,1,1.0,5.5,5.0,5.0,15.5
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",1,10,A,3,1.2,6.0,5.5,5.0,16.5
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",2,11,C,3,1.2,5.5,5.0,5.5,16.0
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",3,20,A,3,1.4,3.0,4.0,3.5,10.5
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",4,21,C,3,1.3,4.5,4.5,3.5,12.5
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",5,101,A,0,1.0,5.0,5.0,4.5,14.5
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",6,200,C,0,1.0,5.5,5.0,5.0,15.5
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",7,101,C,0,1.0,5.0,5.0,5.0,15.0
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",8,100,B,0,1.0,3.0,4.0,3.5,10.5
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",9,100,A,1,1.0,4.0,4.5,4.5,13.0
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",10,200,A,1,1.0,5.0,4.5,4.5,14.0
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",11,101,C,1,1.2,4.5,5.0,5.5,15.0
+meet6,20,E2,F,16958,Madeleine Wood,"Amersham Swimming Club, 2017",12,20,A,1,1.0,5.0,5.5,5.0,15.5
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",1,10,A,3,1.2,6.0,5.0,6.0,17.0
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",2,11,C,3,1.2,4.5,4.0,4.5,13.0
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",3,20,A,3,1.4,6.5,5.5,5.5,17.5
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",4,21,C,3,1.3,4.0,3.0,3.5,10.5
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",5,101,A,0,1.0,6.0,4.0,5.0,15.0
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",6,200,C,0,1.0,5.5,5.0,6.0,16.5
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",7,101,C,0,1.0,5.5,5.0,5.5,16.0
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",8,100,B,0,1.0,4.0,5.0,4.0,13.0
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",9,100,A,1,1.0,0.0,0.0,0.0,0.0
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",10,200,A,1,1.0,5.0,5.0,4.5,14.5
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",11,101,C,1,1.2,4.0,6.0,4.0,14.0
+meet6,20,E2,F,16965,Reva Chhaya,"Tunbridge Wells Diving Club, 2017",12,20,A,1,1.0,7.0,6.0,5.5,18.5
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",1,10,A,3,1.2,4.0,4.5,5.0,13.5
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",2,11,C,3,1.2,3.0,4.0,3.5,10.5
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",3,20,A,3,1.4,5.0,4.5,4.0,13.5
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",4,21,C,3,1.3,4.0,3.5,3.0,10.5
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",5,101,A,0,1.0,4.5,5.0,4.5,14.0
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",6,200,C,0,1.0,5.5,6.0,5.5,17.0
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",7,101,C,0,1.0,4.0,4.0,5.0,13.0
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",8,100,B,0,1.0,5.5,6.5,5.5,17.5
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",9,100,A,1,1.0,4.0,4.5,4.5,13.0
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",10,200,A,1,1.0,4.5,4.0,4.5,13.0
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",11,401,C,1,1.4,4.5,3.5,3.5,11.5
+meet6,20,E2,F,16871,Bennie Trower,"Dive London Aquatics Club, 2017",12,20,A,1,1.0,6.0,4.5,5.0,15.5
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",1,10,A,3,1.2,7.0,8.5,7.5,23.0
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",2,11,C,3,1.2,7.0,8.0,7.0,22.0
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",3,20,A,3,1.4,8.0,7.0,7.0,22.0
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",4,21,C,3,1.3,7.0,7.5,7.5,22.0
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",5,101,A,0,1.0,7.0,6.5,7.0,20.5
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",6,200,C,0,1.0,6.0,6.0,6.0,18.0
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",7,101,C,0,1.0,5.0,6.0,6.5,17.5
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",8,100,B,0,1.0,6.0,5.0,5.5,16.5
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",9,100,A,1,1.0,5.0,4.0,5.5,14.5
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",10,200,A,1,1.0,6.0,6.5,7.0,19.5
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",11,103,C,1,1.6,5.0,6.0,6.5,17.5
+meet6,27,D1,F,15295,Ella Suckling,"Southend Diving, 2016",12,201,C,1,1.5,4.5,5.5,5.5,15.5
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",1,101,A,0,1.0,6.0,6.5,5.5,18.0
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",2,200,C,0,1.0,6.5,7.0,5.5,19.0
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",3,101,C,0,1.0,5.5,6.0,6.0,17.5
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",4,100,B,0,1.0,6.0,5.5,5.0,16.5
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",5,100,A,1,1.0,6.5,6.0,6.5,19.0
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",6,200,A,1,1.0,7.0,6.5,7.0,20.5
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",7,401,B,1,1.5,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",8,301,C,1,1.6,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",9,10,A,3,1.2,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",10,11,C,3,1.2,7.5,7.5,8.5,23.5
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",11,20,A,3,1.4,7.0,8.0,7.0,22.0
+meet6,27,D1,F,16273,Blu Anjos,"Dive London Aquatics Club, 2016",12,21,C,3,1.3,6.5,6.0,5.5,18.0
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",1,10,A,3,1.2,6.0,5.5,6.0,17.5
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",2,11,C,3,1.2,7.0,6.0,7.0,20.0
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",3,20,A,3,1.4,4.5,4.5,4.5,13.5
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",4,21,C,3,1.3,7.0,7.0,7.0,21.0
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",5,101,A,0,1.0,4.0,4.0,5.0,13.0
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",6,200,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",7,101,C,0,1.0,6.0,5.5,6.0,17.5
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",8,100,B,0,1.0,7.0,7.0,6.5,20.5
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",9,100,A,1,1.0,7.5,7.5,8.0,23.0
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",10,200,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",11,401,B,1,1.5,6.0,6.0,5.5,17.5
+meet6,27,D1,F,16327,Sienna Mitchell,"Southend Diving, 2016",12,201,C,1,1.5,6.0,6.0,6.5,18.5
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",1,10,A,3,1.2,5.5,7.0,6.5,19.0
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",2,11,C,3,1.2,7.0,7.5,6.0,20.5
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",3,20,A,3,1.4,6.0,6.0,5.5,17.5
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",4,21,C,3,1.3,7.0,7.5,6.5,21.0
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",5,101,A,0,1.0,4.5,5.0,4.5,14.0
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",6,200,C,0,1.0,5.5,6.0,6.0,17.5
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",7,101,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",8,100,B,0,1.0,5.5,5.5,6.0,17.0
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",9,100,A,1,1.0,7.0,6.5,6.5,20.0
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",10,200,A,1,1.0,6.0,5.5,6.5,18.0
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",11,103,C,1,1.6,4.0,3.5,3.5,11.0
+meet6,27,D1,F,15990,Eliza De Cruz,"Southend Diving, 2016",12,201,B,1,1.6,6.0,6.0,6.5,18.5
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",1,10,A,3,1.2,7.0,7.0,7.0,21.0
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",2,11,C,3,1.2,7.0,7.0,6.5,20.5
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",3,20,A,3,1.4,5.5,5.5,4.5,15.5
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",4,21,C,3,1.3,5.5,6.0,6.5,18.0
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",5,101,A,0,1.0,5.5,5.0,5.5,16.0
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",6,200,C,0,1.0,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",7,101,C,0,1.0,5.0,5.0,5.5,15.5
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",8,100,B,0,1.0,6.5,6.0,5.5,18.0
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",9,100,A,1,1.0,6.5,6.0,6.0,18.5
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",10,200,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",11,401,C,1,1.4,7.0,7.0,7.0,21.0
+meet6,27,D1,F,16855,Isabella Ng,"Star Diving Club Guildford, 2016",12,201,C,1,1.5,3.0,3.0,3.0,9.0
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",1,100,A,1,1.0,7.0,6.5,6.5,20.0
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",2,200,A,1,1.0,7.0,6.0,7.5,20.5
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",3,101,B,1,1.3,4.0,4.0,4.0,12.0
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",4,20,A,1,1.0,5.5,5.0,5.0,15.5
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",5,10,A,3,1.2,5.5,6.0,4.5,16.0
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",6,11,C,3,1.2,6.5,7.0,7.0,20.5
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",7,20,A,3,1.4,6.0,6.0,5.0,17.0
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",8,21,C,3,1.3,5.0,4.5,5.0,14.5
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",9,101,A,0,1.0,5.0,5.5,6.0,16.5
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",10,200,C,0,1.0,7.0,6.5,7.0,20.5
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",11,101,C,0,1.0,5.0,5.5,5.0,15.5
+meet6,27,D1,F,16874,Willow Yang,"Dive London Aquatics Club, 2016",12,100,B,0,1.0,6.5,5.0,6.0,17.5
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",1,10,A,3,1.2,6.5,5.5,6.5,18.5
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",2,11,C,3,1.2,7.0,6.5,6.5,20.0
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",3,20,A,3,1.4,7.0,5.0,6.0,18.0
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",4,21,C,3,1.3,5.5,5.0,5.0,15.5
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",5,101,A,0,1.0,5.5,6.5,7.0,19.0
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",6,200,C,0,1.0,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",7,101,C,0,1.0,5.5,5.5,5.0,16.0
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",8,100,B,0,1.0,4.0,3.5,5.0,12.5
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",9,100,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",10,200,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",11,101,C,1,1.2,4.0,4.5,4.0,12.5
+meet6,27,D1,F,16788,Lucy Tam,"Southend Diving, 2016",12,201,C,1,1.5,5.0,4.5,4.5,14.0
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",1,100,A,1,1.0,6.0,5.5,5.5,17.0
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",2,200,A,1,1.0,6.5,6.5,6.5,19.5
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",3,401,C,1,1.4,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",4,201,C,1,1.5,5.0,5.0,5.0,15.0
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",5,10,A,3,1.2,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",6,11,C,3,1.2,5.5,6.0,6.5,18.0
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",7,20,A,3,1.4,4.5,5.0,5.0,14.5
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",8,21,C,3,1.3,5.5,4.5,4.0,14.0
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",9,101,A,0,1.0,6.0,6.0,6.0,18.0
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",10,200,C,0,1.0,4.5,5.5,4.5,14.5
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",11,101,C,0,1.0,4.0,4.5,4.0,12.5
+meet6,27,D1,F,16834,Sandie Bishop,"Dive London Aquatics Club, 2016",12,100,B,0,1.0,4.5,4.0,5.0,13.5
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",1,10,A,3,1.2,5.5,6.0,6.0,17.5
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",2,11,C,3,1.2,5.5,5.5,6.5,17.5
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",3,20,A,3,1.4,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",4,21,C,3,1.3,6.5,5.5,6.0,18.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",5,101,A,0,1.0,4.0,4.5,5.5,14.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",6,200,C,0,1.0,5.5,6.0,5.5,17.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",7,101,C,0,1.0,4.5,5.0,5.5,15.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",8,100,B,0,1.0,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",9,100,A,1,1.0,5.5,5.5,6.0,17.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",10,200,A,1,1.0,5.0,5.0,5.0,15.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",11,103,C,1,1.6,4.0,3.5,4.5,12.0
+meet6,27,D1,F,16013,Chloe Velleman,"Southend Diving, 2016",12,201,C,1,1.5,3.5,3.5,3.5,10.5
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",1,101,A,0,1.0,6.0,5.5,6.0,17.5
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",2,200,C,0,1.0,5.5,5.0,5.0,15.5
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",3,101,C,0,1.0,5.0,5.5,5.5,16.0
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",4,100,B,0,1.0,4.5,4.5,4.0,13.0
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",5,100,A,1,1.0,5.0,5.0,5.5,15.5
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",6,200,A,1,1.0,5.0,4.0,5.0,14.0
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",7,401,C,1,1.4,4.5,4.5,4.5,13.5
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",8,20,A,1,1.0,6.5,6.0,5.5,18.0
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",9,10,A,3,1.2,6.0,6.0,6.0,18.0
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",10,11,C,3,1.2,5.0,5.5,5.0,15.5
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",11,20,A,3,1.4,5.5,5.5,6.5,17.5
+meet6,27,D1,F,16866,Aria Stannard,"Dive London Aquatics Club, 2016",12,21,C,3,1.3,4.0,4.0,5.0,13.0
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",1,101,A,0,1.0,7.0,7.0,6.5,20.5
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",2,200,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",3,101,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",4,100,B,0,1.0,5.5,5.0,5.5,16.0
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",5,100,A,1,1.0,5.0,5.0,5.0,15.0
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",6,200,A,1,1.0,6.0,5.0,6.5,17.5
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",7,101,B,1,1.3,4.5,3.0,4.5,12.0
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",8,20,A,1,1.0,4.5,4.0,4.5,13.0
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",9,10,A,3,1.2,6.5,6.0,6.0,18.5
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",10,11,C,3,1.2,4.5,6.0,5.5,16.0
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",11,20,A,3,1.4,5.0,5.0,5.0,15.0
+meet6,27,D1,F,16856,Cadence Ngan,"Dive London Aquatics Club, 2016",12,21,C,3,1.3,3.5,4.5,4.5,12.5
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",1,100,A,1,1.0,5.5,5.5,5.0,16.0
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",2,200,A,1,1.0,5.0,5.0,5.0,15.0
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",3,401,C,1,1.4,3.5,3.0,3.5,10.0
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",4,201,C,1,1.5,5.0,5.0,4.0,14.0
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",5,10,A,3,1.2,4.0,5.0,4.5,13.5
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",6,11,C,3,1.2,4.5,5.5,5.5,15.5
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",7,20,A,3,1.4,4.5,5.0,4.5,14.0
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",8,21,C,3,1.3,5.0,7.0,6.5,18.5
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",9,101,A,0,1.0,5.5,5.0,5.0,15.5
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",10,200,C,0,1.0,6.0,6.5,6.0,18.5
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",11,101,C,0,1.0,3.5,4.0,4.5,12.0
+meet6,27,D1,F,16435,Sophie Fry,"Southampton Diving Academy, 2016",12,100,B,0,1.0,3.5,4.5,4.5,12.5
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",1,100,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",2,200,A,1,1.0,5.0,5.5,5.5,16.0
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",3,401,C,1,1.4,4.5,5.0,4.5,14.0
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",4,201,C,1,1.5,4.0,4.5,5.0,13.5
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",5,10,A,3,1.2,6.0,6.5,5.0,17.5
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",6,11,C,3,1.2,3.5,3.5,5.0,12.0
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",7,20,A,3,1.4,6.5,6.0,6.0,18.5
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",8,21,C,3,1.3,6.5,7.0,7.0,20.5
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",9,101,A,0,1.0,4.5,5.0,4.5,14.0
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",10,200,C,0,1.0,3.5,3.5,3.0,10.0
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",11,101,C,0,1.0,5.0,4.5,4.5,14.0
+meet6,27,D1,F,16433,Pearl Dolman,"Southampton Diving Academy, 2016",12,100,B,0,1.0,1.0,1.0,1.0,3.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",1,100,A,1,1.0,6.5,6.0,6.0,18.5
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",2,200,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",3,401,C,1,1.4,4.5,4.5,5.0,14.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",4,20,A,1,1.0,3.0,2.5,1.5,7.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",5,10,A,3,1.2,4.0,5.0,5.0,14.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",6,11,C,3,1.2,3.5,5.5,5.0,14.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",7,20,A,3,1.4,6.5,6.0,6.0,18.5
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",8,21,C,3,1.3,3.5,3.5,5.5,12.5
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",9,101,A,0,1.0,4.5,4.5,5.0,14.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",10,200,C,0,1.0,5.5,5.5,5.0,16.0
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",11,101,C,0,1.0,5.5,5.0,5.0,15.5
+meet6,27,D1,F,16848,Raina Jackson,"Dive London Aquatics Club, 2016",12,100,B,0,1.0,5.5,5.0,4.5,15.0
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",1,101,A,0,1.0,5.5,4.5,5.5,15.5
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",2,200,C,0,1.0,5.5,5.0,5.0,15.5
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",3,101,C,0,1.0,4.5,4.5,5.0,14.0
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",4,100,B,0,1.0,3.5,3.0,4.0,10.5
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",5,100,A,1,1.0,4.0,4.0,5.0,13.0
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",6,200,A,1,1.0,5.0,4.5,5.0,14.5
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",7,401,C,1,1.4,4.5,4.5,5.0,14.0
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",8,201,C,1,1.5,4.0,4.0,4.5,12.5
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",9,10,A,3,1.2,5.0,5.0,5.5,15.5
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",10,11,C,3,1.2,7.0,6.5,6.5,20.0
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",11,20,A,3,1.4,4.0,4.5,5.0,13.5
+meet6,27,D1,F,16887,Connie Petter,"Albatross Diving Club Reading, 2016",12,21,C,3,1.3,4.0,3.0,4.5,11.5
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",1,100,A,1,1.0,5.5,5.0,5.5,16.0
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",2,200,A,1,1.0,5.0,5.0,5.5,15.5
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",3,20,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",4,101,C,1,1.2,5.0,6.0,5.5,16.5
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",5,10,A,3,1.2,5.5,5.5,5.5,16.5
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",6,11,C,3,1.2,5.5,6.0,6.5,18.0
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",7,20,A,3,1.4,4.5,4.0,4.5,13.0
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",8,21,C,3,1.3,3.0,4.0,5.0,12.0
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",9,101,A,0,1.0,4.0,5.5,4.0,13.5
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",10,200,C,0,1.0,5.0,4.5,5.0,14.5
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",11,101,C,0,1.0,4.0,4.5,4.5,13.0
+meet6,27,D1,F,16445,Madeleine Revell,"Maidstone Diving Team, 2016",12,100,B,0,1.0,3.5,3.5,2.0,9.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",1,100,A,1,1.0,5.5,5.0,5.5,16.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",2,200,A,1,1.0,5.0,4.5,5.5,15.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",3,101,C,1,1.2,2.0,2.0,2.0,6.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",4,201,C,1,1.5,4.5,5.0,5.5,15.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",5,10,A,3,1.2,5.0,5.5,5.5,16.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",6,11,C,3,1.2,6.0,6.5,6.0,18.5
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",7,20,A,3,1.4,4.0,4.0,4.5,12.5
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",8,21,C,3,1.3,5.0,5.5,4.5,15.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",9,101,A,0,1.0,4.5,5.5,5.0,15.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",10,200,C,0,1.0,3.5,4.0,4.5,12.0
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",11,101,C,0,1.0,4.0,4.5,5.0,13.5
+meet6,27,D1,F,16794,Chloe Davis,"Southampton Diving Academy, 2016",12,100,B,0,1.0,3.0,4.0,4.5,11.5
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",1,10,A,3,1.2,6.0,6.0,6.0,18.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",2,11,C,3,1.2,4.0,5.5,4.5,14.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",3,20,A,3,1.4,5.5,4.5,4.5,14.5
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",4,21,C,3,1.3,4.5,4.5,5.0,14.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",5,101,A,0,1.0,4.5,5.0,4.5,14.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",6,200,C,0,1.0,4.5,5.5,5.0,15.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",7,101,C,0,1.0,4.5,5.0,5.0,14.5
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",8,100,B,0,1.0,3.5,3.5,4.0,11.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",9,100,A,1,1.0,5.0,5.0,5.0,15.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",10,200,A,1,1.0,5.0,5.0,5.0,15.0
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",11,101,B,1,1.3,4.0,4.0,4.5,12.5
+meet6,27,D1,F,16438,Lyla Holmwood,"Tunbridge Wells Diving Club, 2016",12,20,A,1,1.0,4.0,4.0,4.0,12.0
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",1,100,A,1,1.0,8.0,7.5,7.5,23.0
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",2,200,A,1,1.0,7.5,7.5,8.5,23.5
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",3,103,B,1,1.7,6.5,7.5,7.5,21.5
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",4,201,B,1,1.6,4.0,4.5,5.5,14.0
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",5,10,A,3,1.2,7.0,6.5,6.5,20.0
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",6,11,C,3,1.2,5.5,5.5,6.5,17.5
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",7,20,A,3,1.4,9.0,9.0,8.5,26.5
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",8,21,C,3,1.3,8.0,8.0,8.5,24.5
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",9,101,A,0,1.0,6.0,6.0,6.5,18.5
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",10,200,C,0,1.0,7.0,7.0,7.0,21.0
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",11,101,C,0,1.0,7.0,6.5,6.0,19.5
+meet6,28,D2,F,15422,Alice Fortt,"Southend Diving, 2015",12,100,B,0,1.0,6.0,5.0,5.0,16.0
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",1,101,A,0,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",2,200,C,0,1.0,7.0,6.5,6.5,20.0
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",3,101,C,0,1.0,6.5,5.5,6.5,18.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",4,100,B,0,1.0,7.5,7.5,6.5,21.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",5,100,A,1,1.0,7.5,7.5,7.5,22.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",6,200,A,1,1.0,7.0,7.0,7.5,21.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",7,103,C,1,1.6,5.5,5.5,6.0,17.0
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",8,301,C,1,1.6,7.0,7.0,6.5,20.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",9,10,A,3,1.2,8.0,7.5,8.0,23.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",10,11,C,3,1.2,6.0,5.5,6.0,17.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",11,20,A,3,1.4,6.5,6.5,6.5,19.5
+meet6,28,D2,F,15760,Isla O`Hanlon,"Dive London Aquatics Club, 2015",12,21,C,3,1.3,6.5,7.0,7.0,20.5
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",1,101,A,0,1.0,7.0,6.0,6.0,19.0
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",2,200,C,0,1.0,6.5,6.0,6.0,18.5
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",3,101,C,0,1.0,5.5,4.0,4.0,13.5
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",4,100,B,0,1.0,6.5,6.5,6.0,19.0
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",5,100,A,1,1.0,7.0,7.5,7.5,22.0
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",6,200,A,1,1.0,7.0,6.5,6.5,20.0
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",7,103,C,1,1.6,5.0,5.0,4.5,14.5
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",8,201,C,1,1.5,6.0,5.5,5.5,17.0
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",9,10,A,3,1.2,5.5,4.5,5.5,15.5
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",10,11,C,3,1.2,5.5,6.0,6.0,17.5
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",11,20,A,3,1.4,6.5,6.0,6.0,18.5
+meet6,28,D2,F,16322,Angel Boynton,"Dive London Aquatics Club, 2015",12,21,C,3,1.3,8.0,8.0,7.5,23.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",1,10,A,3,1.2,6.0,6.0,5.5,17.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",2,11,C,3,1.2,6.5,6.5,6.5,19.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",3,20,A,3,1.4,7.0,6.0,6.5,19.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",4,21,C,3,1.3,6.0,6.0,5.5,17.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",5,101,A,0,1.0,4.5,4.5,5.0,14.0
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",6,200,C,0,1.0,6.0,5.0,5.5,16.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",7,101,C,0,1.0,5.0,5.5,5.0,15.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",8,100,B,0,1.0,7.0,7.5,6.5,21.0
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",9,100,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",10,200,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",11,103,C,1,1.6,6.0,6.5,6.5,19.0
+meet6,28,D2,F,14983,Lucy Freeman,"Star Diving Club Guildford, 2015",12,201,C,1,1.5,5.0,6.0,6.0,17.0
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",1,100,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",2,200,A,1,1.0,6.5,7.0,7.0,20.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",3,401,B,1,1.5,6.0,5.5,6.0,17.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",4,201,C,1,1.5,5.0,6.0,6.0,17.0
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",5,10,A,3,1.2,5.5,5.5,5.5,16.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",6,11,C,3,1.2,7.0,6.0,7.0,20.0
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",7,20,A,3,1.4,6.0,7.0,5.5,18.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",8,21,C,3,1.3,7.0,6.5,6.0,19.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",9,101,A,0,1.0,3.5,4.5,5.5,13.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",10,200,C,0,1.0,6.0,5.5,6.0,17.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",11,101,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,15420,Leah Edwards-Vogt,"Luton Diving Club, 2015",12,100,B,0,1.0,4.0,4.0,4.5,12.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",1,10,A,3,1.2,6.0,6.0,6.5,18.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",2,11,C,3,1.2,6.0,5.5,6.0,17.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",3,20,A,3,1.4,6.5,5.5,5.5,17.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",4,21,C,3,1.3,5.5,6.0,6.0,17.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",5,101,A,0,1.0,5.0,5.0,6.5,16.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",6,200,C,0,1.0,6.0,5.5,6.0,17.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",7,101,C,0,1.0,4.5,5.0,5.0,14.5
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",8,100,B,0,1.0,5.5,5.0,5.5,16.0
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",9,100,A,1,1.0,6.5,7.5,7.0,21.0
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",10,200,A,1,1.0,7.5,8.0,7.5,23.0
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",11,101,B,1,1.3,6.0,6.0,7.0,19.0
+meet6,28,D2,F,15762,Daphne Simpson,"Southend Diving, 2015",12,201,C,1,1.5,5.5,5.0,5.5,16.0
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",1,100,A,1,1.0,5.0,6.0,6.0,17.0
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",2,200,A,1,1.0,7.0,6.5,7.5,21.0
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",3,103,B,1,1.7,5.5,6.0,6.5,18.0
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",4,301,C,1,1.6,6.0,5.5,6.5,18.0
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",5,10,A,3,1.2,6.5,7.0,6.0,19.5
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",6,11,C,3,1.2,7.0,7.0,6.5,20.5
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",7,20,A,3,1.4,6.0,5.5,5.0,16.5
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",8,21,C,3,1.3,5.0,4.5,4.5,14.0
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",9,101,A,0,1.0,5.0,4.5,5.0,14.5
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",10,200,C,0,1.0,7.5,6.0,7.0,20.5
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",11,101,C,0,1.0,4.0,4.0,4.5,12.5
+meet6,28,D2,F,15924,Tirana-Kacie Malaj,"Southampton Diving Academy, 2015",12,100,B,0,1.0,5.0,3.5,4.5,13.0
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",1,101,A,0,1.0,6.0,5.5,6.5,18.0
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",2,200,C,0,1.0,6.5,6.5,6.0,19.0
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",3,101,C,0,1.0,5.0,5.5,5.5,16.0
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",4,100,B,0,1.0,5.5,5.0,5.5,16.0
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",5,100,A,1,1.0,5.0,5.0,5.5,15.5
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",6,200,A,1,1.0,6.0,6.0,6.5,18.5
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",7,401,C,1,1.4,6.5,6.0,6.5,19.0
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",8,201,C,1,1.5,4.0,4.5,5.0,13.5
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",9,10,A,3,1.2,7.0,7.0,6.5,20.5
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",10,11,C,3,1.2,5.5,6.0,6.0,17.5
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",11,20,A,3,1.4,6.0,5.5,5.0,16.5
+meet6,28,D2,F,16890,Ada Butterfield,"Albatross Diving Club Reading, 2015",12,21,C,3,1.3,5.5,5.5,5.5,16.5
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",1,10,A,3,1.2,7.5,7.0,6.5,21.0
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",2,11,C,3,1.2,6.0,6.0,6.5,18.5
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",3,20,A,3,1.4,5.5,5.0,5.0,15.5
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",4,21,C,3,1.3,6.0,6.0,6.5,18.5
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",5,101,A,0,1.0,5.5,6.5,5.0,17.0
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",6,200,C,0,1.0,5.0,5.0,6.0,16.0
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",7,101,C,0,1.0,5.0,4.5,6.0,15.5
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",8,100,B,0,1.0,4.0,4.0,5.5,13.5
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",9,100,A,1,1.0,6.5,6.0,6.5,19.0
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",10,200,A,1,1.0,5.0,5.0,5.5,15.5
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",11,103,C,1,1.6,5.0,4.5,4.5,14.0
+meet6,28,D2,F,14834,Willow Sawyer,"Southend Diving, 2015",12,301,C,1,1.6,6.0,5.5,5.0,16.5
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",1,10,A,3,1.2,6.0,6.5,6.5,19.0
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",2,11,C,3,1.2,6.0,5.5,6.0,17.5
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",3,20,A,3,1.4,6.5,6.0,6.0,18.5
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",4,21,C,3,1.3,5.5,5.5,5.0,16.0
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",5,101,A,0,1.0,6.0,4.5,5.5,16.0
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",6,200,C,0,1.0,6.0,5.0,6.0,17.0
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",7,101,C,0,1.0,4.0,5.0,5.0,14.0
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",8,100,B,0,1.0,4.5,4.5,5.0,14.0
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",9,100,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",10,200,A,1,1.0,6.0,6.0,6.5,18.5
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",11,401,C,1,1.4,6.5,6.0,6.0,18.5
+meet6,28,D2,F,16847,Jessica Hunter,"Star Diving Club Guildford, 2015",12,201,C,1,1.5,5.0,5.0,5.0,15.0
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",1,100,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",2,200,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",3,401,B,1,1.5,4.5,4.0,4.5,13.0
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",4,201,C,1,1.5,5.5,5.5,5.5,16.5
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",5,10,A,3,1.2,7.0,7.0,7.0,21.0
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",6,11,C,3,1.2,4.5,5.5,6.0,16.0
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",7,20,A,3,1.4,6.0,5.0,4.5,15.5
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",8,21,C,3,1.3,5.0,5.5,4.5,15.0
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",9,101,A,0,1.0,4.5,5.0,5.0,14.5
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",10,200,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",11,101,C,0,1.0,7.0,6.0,6.5,19.5
+meet6,28,D2,F,15933,Alana Pulsford,"Southampton Diving Academy, 2015",12,100,B,0,1.0,5.5,5.0,5.5,16.0
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",1,101,A,0,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",2,200,C,0,1.0,4.0,4.5,5.5,14.0
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",3,101,C,0,1.0,4.5,5.0,5.5,15.0
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",4,100,B,0,1.0,4.5,4.0,5.0,13.5
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",5,100,A,1,1.0,6.0,6.5,6.5,19.0
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",6,200,A,1,1.0,6.5,6.5,7.0,20.0
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",7,103,C,1,1.6,5.0,5.0,5.5,15.5
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",8,201,C,1,1.5,4.5,4.0,4.0,12.5
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",9,10,A,3,1.2,5.5,6.0,5.5,17.0
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",10,11,C,3,1.2,6.0,6.0,6.5,18.5
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",11,20,A,3,1.4,6.5,6.5,5.5,18.5
+meet6,28,D2,F,15437,Ava Rogers,"Amersham Swimming Club, 2015",12,21,C,3,1.3,6.0,6.5,6.0,18.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",1,100,A,1,1.0,6.0,6.0,6.5,18.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",2,200,A,1,1.0,6.5,6.5,6.5,19.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",3,103,C,1,1.6,4.0,3.5,3.5,11.0
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",4,201,C,1,1.5,3.5,4.0,4.5,12.0
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",5,10,A,3,1.2,7.0,8.5,7.0,22.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",6,11,C,3,1.2,6.0,7.0,6.5,19.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",7,20,A,3,1.4,4.5,4.5,5.0,14.0
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",8,21,C,3,1.3,6.0,5.5,6.0,17.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",9,101,A,0,1.0,5.5,6.0,6.0,17.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",10,200,C,0,1.0,6.0,6.0,5.5,17.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",11,101,C,0,1.0,3.5,4.0,4.0,11.5
+meet6,28,D2,F,15935,Abigail Sutcliffe,"Southampton Diving Academy, 2015",12,100,B,0,1.0,5.0,5.0,6.0,16.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",1,100,A,1,1.0,6.5,5.5,6.0,18.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",2,200,A,1,1.0,5.5,6.0,7.5,19.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",3,103,C,1,1.6,4.5,4.5,5.0,14.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",4,201,C,1,1.5,4.0,4.5,5.0,13.5
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",5,10,A,3,1.2,6.5,6.5,6.0,19.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",6,11,C,3,1.2,6.5,6.0,6.5,19.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",7,20,A,3,1.4,4.0,4.5,4.0,12.5
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",8,21,C,3,1.3,6.0,5.0,6.5,17.5
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",9,101,A,0,1.0,5.5,4.5,5.0,15.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",10,200,C,0,1.0,5.0,5.0,5.0,15.0
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",11,101,C,0,1.0,5.0,5.5,5.0,15.5
+meet6,28,D2,F,16784,Primrose Rice,"Dive London Aquatics Club, 2015",12,100,B,0,1.0,4.5,5.5,5.5,15.5
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",1,10,A,3,1.2,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",2,11,C,3,1.2,6.0,6.5,6.0,18.5
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",3,20,A,3,1.4,8.0,6.5,7.0,21.5
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",4,21,C,3,1.3,4.5,5.0,4.5,14.0
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",5,101,A,0,1.0,3.5,4.0,4.5,12.0
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",6,200,C,0,1.0,5.5,5.5,6.0,17.0
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",7,101,C,0,1.0,4.0,5.0,4.5,13.5
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",8,100,B,0,1.0,5.5,4.5,5.0,15.0
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",9,100,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",10,200,A,1,1.0,6.0,5.5,6.0,17.5
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",11,401,C,1,1.4,5.0,5.5,5.5,16.0
+meet6,28,D2,F,16839,Lily Bunn,"Star Diving Club Guildford, 2015",12,201,C,1,1.5,4.0,4.0,4.0,12.0
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",1,10,A,3,1.2,6.5,6.5,7.0,20.0
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",2,11,C,3,1.2,6.5,8.5,8.0,23.0
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",3,20,A,3,1.4,5.0,5.0,5.5,15.5
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",4,21,C,3,1.3,5.5,4.5,4.5,14.5
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",5,101,A,0,1.0,5.5,6.0,6.0,17.5
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",6,200,C,0,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",7,101,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",8,100,B,0,1.0,5.0,5.0,5.5,15.5
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",9,100,A,1,1.0,6.0,5.0,5.0,16.0
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",10,200,A,1,1.0,5.5,6.0,6.0,17.5
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",11,401,C,1,1.4,3.0,3.0,3.5,9.5
+meet6,28,D2,F,16893,Isla Kennedy,"Southend Diving, 2015",12,201,C,1,1.5,3.5,4.0,4.5,12.0
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",1,101,A,0,1.0,6.0,5.0,6.0,17.0
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",2,200,C,0,1.0,6.0,5.0,6.0,17.0
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",3,101,C,0,1.0,6.0,5.0,5.0,16.0
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",4,100,B,0,1.0,3.5,3.5,4.0,11.0
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",5,100,A,1,1.0,4.5,4.0,5.0,13.5
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",6,200,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",7,401,C,1,1.4,4.0,5.0,4.5,13.5
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",8,201,B,1,1.6,4.5,5.0,5.0,14.5
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",9,10,A,3,1.2,7.0,8.0,7.0,22.0
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",10,11,C,3,1.2,4.0,4.0,4.5,12.5
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",11,20,A,3,1.4,5.5,5.0,5.0,15.5
+meet6,28,D2,F,16948,Sophie Wyand-Mara,"Amersham Swimming Club, 2015",12,21,C,3,1.3,5.5,6.0,6.5,18.0
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",1,100,A,1,1.0,5.5,6.0,6.0,17.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",2,200,A,1,1.0,6.5,6.0,7.0,19.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",3,401,B,1,1.5,4.0,4.0,4.5,12.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",4,201,C,1,1.5,6.0,6.0,6.0,18.0
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",5,10,A,3,1.2,7.0,6.5,6.0,19.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",6,11,C,3,1.2,4.5,4.5,4.5,13.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",7,20,A,3,1.4,6.0,6.0,5.5,17.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",8,21,C,3,1.3,4.5,4.5,4.5,13.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",9,101,A,0,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",10,200,C,0,1.0,4.5,5.0,5.0,14.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",11,101,C,0,1.0,4.5,5.0,5.0,14.5
+meet6,28,D2,F,15931,Aria Osborn-Jenkins,"Southampton Diving Academy, 2015",12,100,B,0,1.0,4.0,3.5,4.0,11.5
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",1,101,A,0,1.0,6.0,5.5,6.5,18.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",2,200,C,0,1.0,5.5,5.5,5.0,16.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",3,101,C,0,1.0,5.0,6.5,6.5,18.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",4,100,B,0,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",5,100,A,1,1.0,5.0,6.0,6.0,17.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",6,200,A,1,1.0,6.5,6.5,7.0,20.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",7,103,C,1,1.6,3.0,3.0,4.0,10.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",8,201,C,1,1.5,3.5,4.5,4.0,12.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",9,10,A,3,1.2,6.5,7.0,7.0,20.5
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",10,11,C,3,1.2,4.5,5.0,5.5,15.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",11,20,A,3,1.4,3.5,4.0,4.5,12.0
+meet6,28,D2,F,16693,Hallie Tonet,"Corby Steel Diving Club, 2015",12,21,C,3,1.3,4.0,4.0,4.5,12.5
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",1,101,A,0,1.0,5.5,5.0,5.5,16.0
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",2,200,C,0,1.0,4.0,4.0,4.5,12.5
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",3,101,C,0,1.0,3.5,3.5,4.5,11.5
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",4,100,B,0,1.0,4.0,4.0,4.0,12.0
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",5,100,A,1,1.0,5.0,5.5,5.5,16.0
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",6,200,A,1,1.0,6.0,5.5,5.0,16.5
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",7,101,B,1,1.3,5.0,6.0,6.0,17.0
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",8,201,C,1,1.5,5.0,5.5,5.0,15.5
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",9,10,A,3,1.2,5.5,5.5,6.0,17.0
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",10,11,C,3,1.2,4.0,5.0,4.5,13.5
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",11,20,A,3,1.4,7.0,6.0,6.0,19.0
+meet6,28,D2,F,14972,Gabriella  Aldridge,"Cambridge Dive Team, 2015",12,21,C,3,1.3,6.5,5.5,6.0,18.0
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",1,10,A,3,1.2,5.5,5.5,6.0,17.0
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",2,11,C,3,1.2,5.5,7.0,6.5,19.0
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",3,20,A,3,1.4,5.5,5.5,5.5,16.5
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",4,21,C,3,1.3,4.5,5.0,4.5,14.0
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",5,101,A,0,1.0,4.5,4.5,5.5,14.5
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",6,200,C,0,1.0,5.5,6.0,5.5,17.0
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",7,101,C,0,1.0,6.0,5.0,5.5,16.5
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",8,100,B,0,1.0,4.0,3.5,5.0,12.5
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",9,100,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",10,200,A,1,1.0,6.5,6.0,6.0,18.5
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",11,401,C,1,1.4,3.0,3.5,3.5,10.0
+meet6,28,D2,F,16885,Emily Barber,"Southend Diving, 2015",12,201,C,1,1.5,4.5,4.5,4.5,13.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",1,101,A,0,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",2,200,C,0,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",3,101,C,0,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",4,100,B,0,1.0,5.5,4.5,4.5,14.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",5,100,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",6,200,A,1,1.0,5.0,5.5,6.0,16.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",7,401,B,1,1.5,3.5,3.5,4.5,11.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",8,201,C,1,1.5,4.5,4.0,4.0,12.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",9,10,A,3,1.2,5.5,4.0,5.5,15.0
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",10,11,C,3,1.2,4.0,4.0,4.5,12.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",11,20,A,3,1.4,4.5,4.0,5.0,13.5
+meet6,28,D2,F,16849,Eva Lebow,"Dive London Aquatics Club, 2015",12,21,C,3,1.3,5.5,5.0,5.0,15.5
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",1,101,A,0,1.0,6.5,6.5,6.0,19.0
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",2,200,C,0,1.0,5.5,6.0,5.0,16.5
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",3,101,C,0,1.0,5.0,6.0,5.5,16.5
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",4,100,B,0,1.0,4.5,4.5,5.0,14.0
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",5,100,A,1,1.0,5.0,6.0,6.0,17.0
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",6,200,A,1,1.0,4.5,4.0,4.5,13.0
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",7,101,C,1,1.2,5.0,5.0,5.5,15.5
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",8,201,C,1,1.5,2.5,2.0,3.5,8.0
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",9,10,A,3,1.2,4.0,4.5,4.5,13.0
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",10,11,C,3,1.2,6.5,6.5,6.5,19.5
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",11,20,A,3,1.4,4.5,4.0,4.5,13.0
+meet6,28,D2,F,16891,Pippa Othen,"Albatross Diving Club Reading, 2015",12,21,C,3,1.3,6.5,6.0,6.0,18.5
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",1,101,A,0,1.0,5.0,4.5,5.5,15.0
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",2,200,C,0,1.0,4.5,4.5,5.0,14.0
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",3,101,C,0,1.0,6.0,5.5,6.0,17.5
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",4,100,B,0,1.0,4.0,4.0,5.0,13.0
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",5,100,A,1,1.0,6.0,6.5,6.0,18.5
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",6,200,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",7,101,C,1,1.2,6.0,6.5,6.5,19.0
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",8,201,C,1,1.5,5.0,4.0,4.0,13.0
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",9,10,A,3,1.2,5.0,6.5,6.0,17.5
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",10,11,C,3,1.2,3.0,4.0,4.0,11.0
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",11,20,A,3,1.4,4.0,4.0,4.5,12.5
+meet6,28,D2,F,16905,Olivia Knight,"Albatross Diving Club Reading, 2015",12,21,C,3,1.3,4.0,4.5,4.5,13.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",1,100,A,1,1.0,5.5,6.0,5.5,17.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",2,200,A,1,1.0,5.5,5.5,6.0,17.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",3,401,C,1,1.4,4.0,4.0,4.0,12.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",4,201,C,1,1.5,5.0,4.0,4.5,13.5
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",5,10,A,3,1.2,2.0,5.0,3.5,10.5
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",6,11,C,3,1.2,6.0,7.0,7.0,20.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",7,20,A,3,1.4,2.0,3.0,4.0,9.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",8,21,C,3,1.3,5.0,5.0,5.0,15.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",9,101,A,0,1.0,5.5,6.0,6.0,17.5
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",10,200,C,0,1.0,5.0,6.0,6.0,17.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",11,101,C,0,1.0,5.0,4.5,4.5,14.0
+meet6,28,D2,F,16446,Lily Rogers,"Southampton Diving Academy, 2015",12,100,B,0,1.0,3.0,4.0,4.0,11.0
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",1,10,A,3,1.2,6.5,5.5,5.5,17.5
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",2,11,C,3,1.2,5.5,4.5,5.0,15.0
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",3,20,A,3,1.4,5.5,5.0,6.5,17.0
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",4,21,C,3,1.3,6.0,6.0,7.5,19.5
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",5,101,A,0,1.0,4.0,4.0,4.0,12.0
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",6,200,C,0,1.0,5.5,5.0,5.0,15.5
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",7,101,C,0,1.0,6.0,7.0,6.0,19.0
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",8,100,B,0,1.0,5.5,5.0,5.0,15.5
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",9,100,A,1,1.0,5.0,5.0,5.5,15.5
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",10,200,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",11,101,C,1,1.2,3.5,4.5,4.0,12.0
+meet6,17,E1,M,16886,Ray Simpson,"Southend Diving, 2018",12,201,C,1,1.5,2.0,3.0,3.5,8.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",1,10,A,3,1.2,7.0,6.0,6.5,19.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",2,11,C,3,1.2,4.0,5.0,4.0,13.0
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",3,20,A,3,1.4,7.5,7.5,6.5,21.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",4,21,C,3,1.3,5.0,5.0,3.5,13.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",5,101,A,0,1.0,6.0,6.0,6.0,18.0
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",6,200,C,0,1.0,7.5,7.0,8.0,22.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",7,101,C,0,1.0,3.0,4.0,4.5,11.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",8,100,B,0,1.0,5.5,3.0,5.0,13.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",9,100,A,1,1.0,3.0,3.5,4.5,11.0
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",10,200,A,1,1.0,8.0,7.5,8.0,23.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",11,103,C,1,1.6,5.0,6.0,5.5,16.5
+meet6,18,E2,M,16862,Anton Reilly,"Cambridge Dive Team, 2017",12,201,C,1,1.5,5.0,5.5,5.0,15.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",1,10,A,3,1.2,3.5,4.0,5.0,12.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",2,11,C,3,1.2,5.5,4.5,5.5,15.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",3,20,A,3,1.4,4.5,4.5,3.0,12.0
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",4,21,C,3,1.3,4.5,3.5,4.5,12.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",5,101,A,0,1.0,6.0,5.5,6.0,17.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",6,200,C,0,1.0,5.0,4.5,5.0,14.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",7,101,C,0,1.0,4.0,4.5,5.5,14.0
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",8,100,B,0,1.0,6.0,6.5,6.0,18.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",9,100,A,1,1.0,3.0,4.0,3.5,10.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",10,200,A,1,1.0,5.5,5.0,5.0,15.5
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",11,103,C,1,1.6,3.5,4.0,4.5,12.0
+meet6,18,E2,M,16443,Edward Nason,"Amersham Swimming Club, 2017",12,301,C,1,1.6,4.5,5.5,4.5,14.5
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",1,10,A,3,1.2,6.5,5.0,5.5,17.0
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",2,11,C,3,1.2,6.0,5.0,6.0,17.0
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",3,20,A,3,1.4,5.5,4.5,5.5,15.5
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",4,21,C,3,1.3,5.5,4.5,4.0,14.0
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",5,101,A,0,1.0,4.5,4.5,5.0,14.0
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",6,200,C,0,1.0,5.5,6.0,5.5,17.0
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",7,101,C,0,1.0,4.5,4.5,4.5,13.5
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",8,100,B,0,1.0,5.5,4.5,4.0,14.0
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",9,100,A,1,1.0,5.5,5.5,5.5,16.5
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",10,200,A,1,1.0,5.0,5.5,5.0,15.5
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",11,101,C,1,1.2,4.5,5.0,4.5,14.0
+meet6,18,E2,M,16014,Albus Walter,"Southend Diving, 2017",12,201,C,1,1.5,2.0,2.0,2.0,6.0
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",1,100,A,1,1.0,6.5,6.5,6.5,19.5
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",2,200,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",3,103,C,1,1.6,0.0,0.0,0.0,0.0
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",4,201,C,1,1.5,7.0,7.0,7.0,21.0
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",5,10,A,3,1.2,4.5,7.5,5.5,17.5
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",6,11,C,3,1.2,6.5,5.5,5.5,17.5
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",7,20,A,3,1.4,7.5,8.0,7.5,23.0
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",8,21,C,3,1.3,7.0,8.0,7.5,22.5
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",9,101,A,0,1.0,6.0,5.5,6.0,17.5
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",10,200,C,0,1.0,6.5,6.5,6.5,19.5
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",11,101,C,0,1.0,5.0,5.5,5.5,16.0
+meet6,29,D1,M,16370,Christopher Lleshaj,"Luton Diving Club, 2016",12,100,B,0,1.0,6.5,6.0,6.0,18.5
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",1,10,A,3,1.2,6.0,7.0,6.5,19.5
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",2,11,C,3,1.2,7.5,7.0,6.5,21.0
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",3,20,A,3,1.4,6.5,4.5,5.5,16.5
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",4,21,C,3,1.3,5.0,4.5,5.5,15.0
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",5,101,A,0,1.0,7.0,6.0,5.5,18.5
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",6,200,C,0,1.0,5.0,5.5,5.5,16.0
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",7,101,C,0,1.0,7.0,7.0,5.5,19.5
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",8,100,B,0,1.0,6.0,6.0,6.0,18.0
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",9,100,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",10,200,A,1,1.0,5.5,5.0,5.5,16.0
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",11,101,C,1,1.2,5.5,6.0,5.0,16.5
+meet6,29,D1,M,16841,Dylan Fountain,"Star Diving Club Guildford, 2016",12,201,C,1,1.5,4.0,4.5,4.5,13.0
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",1,101,A,0,1.0,5.5,5.0,5.5,16.0
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",2,200,C,0,1.0,5.5,5.0,5.5,16.0
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",3,101,C,0,1.0,5.5,4.0,4.5,14.0
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",4,100,B,0,1.0,4.5,5.0,5.0,14.5
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",5,100,A,1,1.0,6.5,6.5,6.5,19.5
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",6,200,A,1,1.0,6.0,6.5,6.5,19.0
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",7,103,C,1,1.6,3.0,3.5,3.0,9.5
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",8,201,C,1,1.5,5.0,5.5,5.0,15.5
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",9,10,A,3,1.2,5.5,5.0,5.5,16.0
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",10,11,C,3,1.2,4.5,5.0,5.0,14.5
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",11,20,A,3,1.4,6.5,6.5,6.5,19.5
+meet6,29,D1,M,16960,Adrian Rojee,"Cambridge Dive Team, 2016",12,21,C,3,1.3,4.0,4.5,4.5,13.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",1,10,A,3,1.2,4.5,5.5,5.0,15.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",2,11,C,3,1.2,4.5,4.5,4.5,13.5
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",3,20,A,3,1.4,6.0,6.0,5.5,17.5
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",4,21,C,3,1.3,4.5,5.0,5.5,15.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",5,101,A,0,1.0,6.0,4.5,4.5,15.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",6,200,C,0,1.0,5.0,5.0,6.0,16.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",7,101,C,0,1.0,5.0,5.0,5.0,15.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",8,100,B,0,1.0,5.0,4.0,5.0,14.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",9,100,A,1,1.0,5.0,5.0,5.0,15.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",10,200,A,1,1.0,4.5,4.5,4.5,13.5
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",11,101,C,1,1.2,5.0,5.0,5.0,15.0
+meet6,29,D1,M,16005,Ralph Parnell,"Southend Diving, 2016",12,20,A,1,1.0,5.0,5.5,5.0,15.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",1,101,A,0,1.0,5.0,5.0,5.0,15.0
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",2,200,C,0,1.0,6.0,5.5,6.0,17.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",3,101,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",4,100,B,0,1.0,5.0,5.0,5.5,15.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",5,100,A,1,1.0,4.0,3.0,4.5,11.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",6,200,A,1,1.0,6.5,6.0,6.0,18.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",7,101,C,1,1.2,3.0,3.5,3.0,9.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",8,201,C,1,1.5,3.5,4.0,4.0,11.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",9,10,A,3,1.2,6.5,5.0,6.0,17.5
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",10,11,C,3,1.2,3.5,4.0,4.5,12.0
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",11,20,A,3,1.4,6.0,5.0,6.0,17.0
+meet6,29,D1,M,16872,Zachary Turbard,"Dive London Aquatics Club, 2016",12,21,C,3,1.3,3.0,4.0,4.5,11.5
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",1,10,A,3,1.2,6.0,6.5,5.5,18.0
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",2,11,C,3,1.2,4.5,5.0,4.5,14.0
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",3,20,A,3,1.4,7.0,7.0,5.5,19.5
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",4,21,C,3,1.3,5.0,5.0,5.5,15.5
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",5,101,A,0,1.0,5.5,5.0,4.5,15.0
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",6,200,C,0,1.0,4.0,4.0,4.0,12.0
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",7,101,C,0,1.0,0.0,0.0,0.0,0.0
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",8,100,B,0,1.0,6.0,5.0,4.5,15.5
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",9,100,A,1,1.0,4.5,4.5,5.0,14.0
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",10,200,A,1,1.0,5.0,5.5,6.0,16.5
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",11,101,C,1,1.2,5.0,5.5,5.5,16.0
+meet6,29,D1,M,16811,Daniel Tull,"Southampton Diving Academy, 2016",12,201,C,1,1.5,3.5,4.0,4.0,11.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",1,101,A,0,1.0,5.0,5.0,5.5,15.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",2,200,C,0,1.0,5.5,6.0,6.0,17.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",3,101,C,0,1.0,6.0,5.5,5.5,17.0
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",4,100,B,0,1.0,4.0,4.0,4.5,12.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",5,100,A,1,1.0,4.5,4.5,4.5,13.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",6,200,A,1,1.0,5.0,5.5,6.0,16.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",7,401,C,1,1.4,4.0,4.5,4.0,12.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",8,201,C,1,1.5,3.0,4.0,4.0,11.0
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",9,10,A,3,1.2,3.0,4.0,4.0,11.0
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",10,11,C,3,1.2,4.5,4.5,5.0,14.0
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",11,20,A,3,1.4,5.5,6.0,6.0,17.5
+meet6,29,D1,M,16961,Arthur Willis,"Cambridge Dive Team, 2016",12,21,C,3,1.3,3.0,3.5,4.0,10.5
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",1,100,A,1,1.0,5.0,4.5,5.0,14.5
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",2,200,A,1,1.0,5.0,5.5,6.5,17.0
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",3,20,A,1,1.0,4.0,4.0,4.5,12.5
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",4,101,C,1,1.2,5.0,5.0,5.0,15.0
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",5,10,A,3,1.2,2.0,3.0,4.5,9.5
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",6,11,C,3,1.2,4.0,4.0,5.0,13.0
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",7,20,A,3,1.4,4.5,4.0,4.5,13.0
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",8,21,C,3,1.3,4.5,4.5,4.5,13.5
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",9,101,A,0,1.0,6.0,5.5,5.0,16.5
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",10,200,C,0,1.0,6.0,5.0,5.0,16.0
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",11,101,C,0,1.0,5.5,5.0,4.0,14.5
+meet6,29,D1,M,16453,Dylan Valentine,"Maidstone Diving Team, 2016",12,100,B,0,1.0,5.0,4.5,4.0,13.5
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",1,101,A,0,1.0,7.5,7.5,7.0,22.0
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",2,200,C,0,1.0,6.5,5.5,5.5,17.5
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",3,101,C,0,1.0,5.5,5.5,6.0,17.0
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",4,100,B,0,1.0,6.0,6.0,6.0,18.0
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",5,100,A,1,1.0,6.0,6.0,6.5,18.5
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",6,200,A,1,1.0,7.5,7.5,7.0,22.0
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",7,103,C,1,1.6,6.0,6.5,6.0,18.5
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",8,301,C,1,1.6,3.0,3.0,4.0,10.0
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",9,10,A,3,1.2,5.5,5.5,6.5,17.5
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",10,11,C,3,1.2,6.0,7.5,8.0,21.5
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",11,20,A,3,1.4,6.0,7.5,7.0,20.5
+meet6,30,D2,M,15761,Edward Robertson,"Dive London Aquatics Club, 2015",12,21,C,3,1.3,8.0,8.5,8.0,24.5
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",1,101,A,0,1.0,5.0,5.0,6.5,16.5
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",2,200,C,0,1.0,6.0,6.0,6.5,18.5
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",3,101,C,0,1.0,5.5,5.0,5.5,16.0
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",4,100,B,0,1.0,6.0,5.0,5.0,16.0
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",5,100,A,1,1.0,6.5,6.5,6.0,19.0
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",6,200,A,1,1.0,7.0,7.0,7.0,21.0
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",7,201,C,1,1.5,6.5,7.0,7.0,20.5
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",8,103,C,1,1.6,4.0,4.0,3.5,11.5
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",9,10,A,3,1.2,8.0,7.0,7.5,22.5
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",10,11,C,3,1.2,6.5,6.0,8.5,21.0
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",11,20,A,3,1.4,6.5,7.0,7.0,20.5
+meet6,30,D2,M,15277,James Hughes,"Cambridge Dive Team, 2015",12,21,C,3,1.3,7.5,8.0,8.0,23.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",1,10,A,3,1.2,6.0,6.5,6.5,19.0
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",2,11,C,3,1.2,4.5,5.0,5.0,14.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",3,20,A,3,1.4,5.0,6.0,5.5,16.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",4,21,C,3,1.3,6.0,5.0,5.5,16.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",5,101,A,0,1.0,7.0,7.5,7.0,21.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",6,200,C,0,1.0,5.5,5.5,6.0,17.0
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",7,101,C,0,1.0,5.0,5.0,5.5,15.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",8,100,B,0,1.0,6.5,6.0,5.5,18.0
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",9,100,A,1,1.0,6.0,6.5,6.0,18.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",10,200,A,1,1.0,5.5,6.0,5.0,16.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",11,401,C,1,1.4,5.0,5.0,5.5,15.5
+meet6,30,D2,M,16877,Madden Murphy,"Southend Diving, 2015",12,201,C,1,1.5,3.5,4.0,4.0,11.5
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",1,100,A,1,1.0,7.5,7.5,7.5,22.5
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",2,200,A,1,1.0,7.5,8.5,8.0,24.0
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",3,103,B,1,1.7,5.0,5.5,5.5,16.0
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",4,301,B,1,1.7,4.5,4.0,4.0,12.5
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",5,10,A,3,1.2,4.0,4.5,4.5,13.0
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",6,11,C,3,1.2,4.5,5.5,5.5,15.5
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",7,20,A,3,1.4,4.5,4.5,4.5,13.5
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",8,21,C,3,1.3,4.5,4.5,5.0,14.0
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",9,101,A,0,1.0,4.5,4.5,5.0,14.0
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",10,200,C,0,1.0,5.5,5.5,5.0,16.0
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",11,101,C,0,1.0,6.0,6.5,6.0,18.5
+meet6,30,D2,M,16008,Edward Slade,"Luton Diving Club, 2015",12,100,B,0,1.0,5.5,5.0,5.0,15.5
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",1,100,A,1,1.0,7.5,8.0,8.5,24.0
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",2,200,A,1,1.0,6.0,6.0,6.5,18.5
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",3,103,B,1,1.7,3.0,3.0,4.0,10.0
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",4,201,B,1,1.6,3.5,3.5,4.0,11.0
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",5,10,A,3,1.2,4.0,5.5,5.5,15.0
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",6,11,C,3,1.2,7.5,7.0,7.0,21.5
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",7,20,A,3,1.4,5.5,5.5,5.5,16.5
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",8,21,C,3,1.3,4.5,4.5,5.0,14.0
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",9,101,A,0,1.0,4.0,5.0,4.0,13.0
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",10,200,C,0,1.0,7.5,6.5,7.0,21.0
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",11,101,C,0,1.0,5.5,6.0,6.0,17.5
+meet6,30,D2,M,16850,Henry Martin,"Luton Diving Club, 2015",12,100,B,0,1.0,6.0,5.0,5.5,16.5
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",1,100,A,1,1.0,7.0,7.0,8.0,22.0
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",2,200,A,1,1.0,5.5,6.0,7.0,18.5
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",3,401,B,1,1.5,3.0,3.0,4.0,10.0
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",4,201,C,1,1.5,3.0,3.5,4.0,10.5
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",5,10,A,3,1.2,5.5,6.5,6.0,18.0
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",6,11,C,3,1.2,5.0,6.5,6.5,18.0
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",7,20,A,3,1.4,6.5,6.5,6.0,19.0
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",8,21,C,3,1.3,6.0,6.5,5.5,18.0
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",9,101,A,0,1.0,4.5,5.0,5.0,14.5
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",10,200,C,0,1.0,5.5,6.0,5.5,17.0
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",11,101,C,0,1.0,6.0,6.5,6.0,18.5
+meet6,30,D2,M,16951,William Saunders,"Luton Diving Club, 2015",12,100,B,0,1.0,5.0,5.0,5.5,15.5
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",1,101,A,0,1.0,6.0,5.5,5.5,17.0
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",2,200,C,0,1.0,4.5,4.0,4.5,13.0
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",3,101,C,0,1.0,5.0,5.5,5.0,15.5
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",4,100,B,0,1.0,5.5,6.0,6.0,17.5
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",5,100,A,1,1.0,5.0,5.5,5.5,16.0
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",6,200,A,1,1.0,5.5,6.0,6.0,17.5
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",7,103,C,1,1.6,5.0,6.0,6.0,17.0
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",8,201,C,1,1.5,4.0,4.0,4.0,12.0
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",9,10,A,3,1.2,5.0,5.5,5.5,16.0
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",10,11,C,3,1.2,4.5,6.0,5.0,15.5
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",11,20,A,3,1.4,6.0,5.0,6.0,17.0
+meet6,30,D2,M,16018,Sebastian Zanella,"Cambridge Dive Team, 2015",12,21,C,3,1.3,4.0,4.0,4.5,12.5
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",1,100,A,1,1.0,6.0,6.5,7.0,19.5
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",2,200,A,1,1.0,6.5,7.0,6.5,20.0
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",3,103,C,1,1.6,5.0,5.5,5.0,15.5
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",4,201,C,1,1.5,3.0,3.0,3.5,9.5
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",5,10,A,3,1.2,6.0,7.0,6.0,19.0
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",6,11,C,3,1.2,5.0,4.5,4.5,14.0
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",7,20,A,3,1.4,4.0,4.0,4.0,12.0
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",8,21,C,3,1.3,5.5,6.0,5.5,17.0
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",9,101,A,0,1.0,5.0,5.0,5.5,15.5
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",10,200,C,0,1.0,5.0,5.5,5.0,15.5
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",11,101,C,0,1.0,6.0,6.0,5.5,17.5
+meet6,30,D2,M,16963,Jackson White,"South West London Diving, 2015",12,100,B,0,1.0,4.0,4.5,3.0,11.5
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",1,10,A,3,1.2,5.0,5.0,5.0,15.0
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",2,11,C,3,1.2,5.0,4.5,5.5,15.0
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",3,20,A,3,1.4,5.5,4.5,4.5,14.5
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",4,21,C,3,1.3,4.5,5.5,6.0,16.0
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",5,101,A,0,1.0,6.0,6.0,5.0,17.0
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",6,200,C,0,1.0,4.0,4.0,4.5,12.5
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",7,101,C,0,1.0,4.0,5.0,4.5,13.5
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",8,100,B,0,1.0,4.0,4.5,5.0,13.5
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",9,100,A,1,1.0,6.0,6.0,6.0,18.0
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",10,200,A,1,1.0,4.5,4.0,5.0,13.5
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",11,401,C,1,1.4,5.0,5.5,5.5,16.0
+meet6,30,D2,M,16428,Albie Morgan,"Southampton Diving Academy, 2015",12,201,C,1,1.5,4.5,5.0,5.0,14.5
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",1,10,A,3,1.2,6.0,6.0,6.5,18.5
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",2,11,C,3,1.2,5.0,5.0,5.0,15.0
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",3,20,A,3,1.4,4.5,5.0,5.0,14.5
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",4,21,C,3,1.3,6.0,5.5,5.5,17.0
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",5,101,A,0,1.0,5.5,5.0,5.5,16.0
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",6,200,C,0,1.0,5.5,5.5,5.5,16.5
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",7,101,C,0,1.0,4.0,3.0,5.0,12.0
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",8,100,B,0,1.0,4.0,3.5,4.5,12.0
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",9,100,A,1,1.0,4.5,4.0,5.0,13.5
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",10,200,A,1,1.0,5.0,4.0,4.0,13.0
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",11,401,C,1,1.4,3.5,3.0,3.5,10.0
+meet6,30,D2,M,16888,Georgi Antonov,"Tunbridge Wells Diving Club, 2015",12,201,C,1,1.5,4.5,5.5,5.0,15.0
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",1,100,A,1,1.0,5.0,5.5,5.5,16.0
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",2,200,A,1,1.0,1.5,1.0,1.0,3.5
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",3,201,C,1,1.5,4.5,4.5,4.5,13.5
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",4,101,C,1,1.2,4.5,4.5,5.0,14.0
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",5,10,A,3,1.2,5.5,5.5,6.0,17.0
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",6,11,C,3,1.2,3.0,4.5,3.5,11.0
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",7,20,A,3,1.4,5.0,4.5,5.0,14.5
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",8,21,C,3,1.3,3.5,3.5,4.5,11.5
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",9,101,A,0,1.0,7.0,6.0,6.0,19.0
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",10,200,C,0,1.0,5.5,4.5,4.5,14.5
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",11,101,C,0,1.0,5.0,4.5,5.0,14.5
+meet6,30,D2,M,16964,Luc Constantopoulos,"Maidstone Diving Team, 2015",12,100,B,0,1.0,5.0,5.5,5.5,16.0
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",1,101,A,0,1.0,3.0,4.5,4.5,12.0
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",2,200,C,0,1.0,6.5,6.0,6.5,19.0
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",3,101,C,0,1.0,4.0,4.0,4.5,12.5
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",4,100,B,0,1.0,5.5,5.0,5.0,15.5
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",5,100,A,1,1.0,4.5,4.5,4.5,13.5
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",6,200,A,1,1.0,5.0,5.0,5.5,15.5
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",7,401,C,1,1.4,3.5,3.5,3.5,10.5
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",8,301,C,1,1.6,3.5,3.5,3.5,10.5
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",9,10,A,3,1.2,6.0,6.5,6.0,18.5
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",10,11,C,3,1.2,3.0,3.5,3.5,10.0
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",11,20,A,3,1.4,6.0,6.5,6.5,19.0
+meet6,30,D2,M,16287,Cooper Quincey,"Havering Cormorants DC, 2015",12,21,C,3,1.3,2.0,2.0,3.0,7.0
