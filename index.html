@@ -62,23 +62,42 @@ function seasonIndices(){
 }
 function destroyCharts(){charts.forEach(c=>c.destroy());charts=[];if(bandChartInstance){bandChartInstance.destroy();bandChartInstance=null;}if(strengthsChartInstance){strengthsChartInstance.destroy();strengthsChartInstance=null;}}
 
-function posChart(el,pos){
-  let data,ytitle,yopts;
+function posChart(el,pos,d){
+  let data,ytitle,yopts,meta=pos;
   if(posmode=="pct"){
     data=pos.map(p=>p.better);
     ytitle="field standing (higher = better placed)";
     yopts={min:0,max:100};
-  }else{
+  }else if(posmode=="pos"){
     data=pos.map(p=>p.rank!=null?p.rank:null);
     ytitle="finishing position (1st at top)";
     const maxN=Math.max(...pos.filter(p=>p.n).map(p=>p.n),1);
     yopts={min:1,max:maxN,reverse:true,ticks:{stepSize:1,precision:0}};
+  }else{
+    // "actual score": sum this diver's DD-points across all their dives at each meet.
+    const scores=DATA.meetorder.map((m,i)=>{
+      let total=null;
+      for(const M in d.dives){ for(const c in d.dives[M]){
+        const e=d.dives[M][c][i];
+        if(e && !e.isTraining){ total=(total||0)+e.pts; }
+      }}
+      return total;
+    });
+    data=scores;
+    meta=pos.map((p,i)=>Object.assign({},p,{score:scores[i]}));
+    ytitle="total competition score";
+    yopts={}; // let Chart.js auto-scale; totals vary too much across brackets for a fixed range
   }
-  charts.push(new Chart(el,{type:"line",data:{labels:xlabels(),datasets:[{data,meta:pos,borderColor:cove[0],backgroundColor:cove[0],borderWidth:2,tension:.25,pointRadius:4,pointHoverRadius:6,pointBackgroundColor:cove[0],pointBorderColor:col("--bg"),pointBorderWidth:2,spanGaps:true}]},
+  charts.push(new Chart(el,{type:"line",data:{labels:xlabels(),datasets:[{data,meta,borderColor:cove[0],backgroundColor:cove[0],borderWidth:2,tension:.25,pointRadius:4,pointHoverRadius:6,pointBackgroundColor:cove[0],pointBorderColor:col("--bg"),pointBorderWidth:2,spanGaps:true}]},
     options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},
       tooltip:{callbacks:{title:i=>{const l=i[0].label;return Array.isArray(l)?l.join(" "):l;},
-        label:it=>{const m=it.dataset.meta[it.dataIndex];if(m.better==null)return"";return ["placed "+m.rank+" of "+m.n,"top "+(100-m.better)+"%",m.bracket+" "+(m.gender=="F"?"female":"open")];}}}},
-      scales:{y:Object.assign({title:{display:true,text:ytitle,color:col("--faint"),font:{size:10}},ticks:Object.assign({color:col("--faint"),font:{size:10}},yopts.ticks||{}),grid:{color:col("--grid")}},yopts.ticks?{min:yopts.min,max:yopts.max,reverse:yopts.reverse}:{min:yopts.min,max:yopts.max}),
+        label:it=>{const m=it.dataset.meta[it.dataIndex];if(m.better==null&&m.score==null)return"";
+          const lines=[];
+          if(m.score!=null) lines.push("score: "+m.score.toFixed(2));
+          if(m.better!=null) lines.push("placed "+m.rank+" of "+m.n,"top "+(100-m.better)+"%");
+          if(m.bracket) lines.push(m.bracket+" "+(m.gender=="F"?"female":"open"));
+          return lines;}}}},
+      scales:{y:Object.assign({title:{display:true,text:ytitle,color:col("--faint"),font:{size:10}},ticks:Object.assign({color:col("--faint"),font:{size:10}},yopts.ticks||{}),grid:{color:col("--grid")}},yopts.ticks?{min:yopts.min,max:yopts.max,reverse:yopts.reverse}:(yopts.min!=null?{min:yopts.min,max:yopts.max}:{})),
         x:{ticks:{color:col("--faint"),font:{size:10}},grid:{display:false}}}}}));
 }
 
@@ -331,7 +350,7 @@ function render(name){
   h+="<select class=diveSel id=bandSel></select>";
   h+="<div class=panel bandwrap><canvas id=bandc></canvas></div>";
   h+="<h3>Field standing over time</h3>";
-  h+="<div class=seg><button id=pp data-m=pct class=\""+(posmode=="pct"?"on":"")+"\">percentage</button><button id=pr data-m=pos class=\""+(posmode=="pos"?"on":"")+"\">actual position</button></div>";
+  h+="<div class=seg><button id=pp data-m=pct class=\""+(posmode=="pct"?"on":"")+"\">percentage</button><button id=pr data-m=pos class=\""+(posmode=="pos"?"on":"")+"\">actual position</button><button id=ps data-m=score class=\""+(posmode=="score"?"on":"")+"\">actual score</button></div>";
   h+="<div class=panel><canvas id=posc></canvas></div>";
   h+="<label class=toggle><input type=checkbox id=modebox "+(mode=="raw"?"checked":"")+"> show raw judge totals instead of severity-corrected</label>";
   if(mode=="raw" && TRAINING_SHEET_ID){
@@ -343,7 +362,7 @@ function render(name){
   h+=trainingLogHTML(name);
   h+='<p class=note>Field standing reconstructed from summed DD-points, with guest divers excluded from rank, field size, and field-average calculations throughout (matches official placings). Percentage view normalises for field size (good across meets) but flatters tiny fields — e.g. 1st of 2 shows as top 50%. Actual-position view shows the real placing (1st at top) but does not account for how many competed. Per-dive severity-corrected = points above/below that meet\'s field average for that dive. Ten meets, May 2024 – Jul 2026.</p>';
   document.getElementById("main").innerHTML=h;
-  posChart(document.getElementById("posc"),d.pos);
+  posChart(document.getElementById("posc"),d.pos,d);
   const logBtn=document.getElementById("logSessionBtn"), logDialog=document.getElementById("logSessionDialog");
   if(logBtn && logDialog){
     logBtn.onclick=()=>logDialog.showModal();
@@ -444,6 +463,7 @@ function render(name){
   if(tt) tt.onchange=e=>{includeTraining=e.target.checked;render(name);};
   document.getElementById("pp").onclick=()=>{posmode="pct";render(name);};
   document.getElementById("pr").onclick=()=>{posmode="pos";render(name);};
+  document.getElementById("ps").onclick=()=>{posmode="score";render(name);};
 }
 
 const names=Object.keys(DATA.divers).sort();
