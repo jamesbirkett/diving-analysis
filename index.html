@@ -395,6 +395,21 @@ document.getElementById("list").innerHTML=names.map(n=>{
 document.querySelectorAll(".diver").forEach(el=>el.onclick=()=>{
   document.querySelectorAll(".diver").forEach(x=>x.classList.remove("sel"));
   el.classList.add("sel"); currentDiverName=el.dataset.n; render(el.dataset.n);
+  const url=new URL(location.href);
+  url.searchParams.set("diver",el.dataset.n);
+  history.pushState({diver:el.dataset.n},"",url);
+});
+
+// Back/forward browser navigation should also switch diver.
+window.addEventListener("popstate",()=>{
+  const params=new URLSearchParams(location.search);
+  const wanted=params.get("diver");
+  if(!wanted) return;
+  const match=names.find(n=>n.toLowerCase()===wanted.toLowerCase());
+  if(match){
+    const el=document.querySelector(".diver[data-n='"+match.replace(/'/g,"&#39;")+"']");
+    if(el){ document.querySelectorAll(".diver").forEach(x=>x.classList.remove("sel")); el.classList.add("sel"); currentDiverName=match; render(match); }
+  }
 });
 
 // Shareable direct link: ?diver=Full%20Name auto-opens that diver's page.
