@@ -52,6 +52,14 @@ const cs=getComputedStyle(document.documentElement);
 const col=n=>cs.getPropertyValue(n).trim();
 function xlabels(){return DATA.meetorder.map(m=>[DATA.short[m],m]);}
 const MEET_DATES={"SE 2024":"2024-05-18","Natl Finals 2024":"2024-07-13","PW Novices 2024":"2024-11-16","SW Skills 2025":"2025-03-22","Sandwell 2025":"2025-04-18","Natl Finals 2025":"2025-07-19","PW Novices 2025":"2025-11-22","SW Skills 2026":"2026-03-28","Sandwell 2026":"2026-04-18","Natl Finals 2026":"2026-07-19"};
+// "This season" = meets strictly after the second-to-last Finals, up to and including the last Finals.
+// Purely data-driven (based on meet names containing "Finals"), so it shifts automatically as new meets/seasons are added.
+function seasonIndices(){
+  const finalsIdx=DATA.meetorder.map((m,i)=>({m,i})).filter(o=>/finals/i.test(o.m)).map(o=>o.i);
+  if(finalsIdx.length>=2) return [finalsIdx[finalsIdx.length-2], finalsIdx[finalsIdx.length-1]];
+  if(finalsIdx.length===1) return [-1, finalsIdx[0]];
+  return [-1, DATA.meetorder.length-1];
+}
 function destroyCharts(){charts.forEach(c=>c.destroy());charts=[];if(bandChartInstance){bandChartInstance.destroy();bandChartInstance=null;}if(strengthsChartInstance){strengthsChartInstance.destroy();strengthsChartInstance=null;}}
 
 function posChart(el,pos){
@@ -312,7 +320,8 @@ function render(name){
   let h="<h2>"+name+"</h2><p class=sub>"+d.club+" · "+nMeets+" meet"+(nMeets>1?"s":"")+" with full field data</p>";
   if(nMeets<2){h+="<div class=empty>Only one meet on record — no progression to show. Per-dive detail below.</div>";}
   h+="<h3>Strengths &amp; weaknesses (all dives, ranked)</h3><p class=sub style='margin:-2px 0 6px'>Untick meets to see how the ranking shifts over a different window.</p>";
-  h+="<div class=row id=meetCbs style='margin:6px 0 4px'></div>";
+  h+="<div class=seg id=presetSeg><button data-p=all>All time</button><button data-p=last3>Last 3</button><button data-p=season>This season</button><button data-p=custom>Customise</button></div>";
+  h+="<div id=timelineWrap style='display:none;padding:16px 12px 10px;border:.5px solid var(--border);border-radius:8px;background:var(--sel);margin-bottom:8px'><div id=meetTimeline></div></div>";
   h+="<div class=seg><button id=sm-diff data-m=corr class=\""+(strengthMode=="corr"?"on":"")+"\">difference from average</button><button id=sm-raw data-m=raw class=\""+(strengthMode=="raw"?"on":"")+"\">raw scores</button></div>";
   h+="<div class=legend><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#2a78d6'></span>poolside</span><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#eb6834'></span>1m</span><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#1baf7a'></span>3m</span></div>";
   h+="<div class=panel style='height:auto'><canvas id=strc></canvas></div>";
@@ -348,18 +357,56 @@ function render(name){
       });
     }
   }
-  const cbHost=document.getElementById("meetCbs");
-  cbHost.innerHTML=d.meets.map(m=>{
-    const idx=DATA.meetorder.indexOf(m);
-    return "<label class=toggle style='margin:0 10px 4px 0;font-size:12px'><input type=checkbox class=meetcb data-idx='"+idx+"' checked> "+(DATA.short[m]||m)+" · "+m+"</label>";
-  }).join("");
+  const allIdx=d.meets.map(m=>DATA.meetorder.indexOf(m)).sort((a,b)=>a-b);
+  let selectedIdx=new Set(allIdx);
+
+  function presetIndices(p){
+    if(p=="last3") return allIdx.slice(-3);
+    if(p=="season"){ const [s,e]=seasonIndices(); return allIdx.filter(i=>i>s&&i<=e); }
+    return allIdx.slice();
+  }
+  function setActiveButton(p){ document.querySelectorAll("#presetSeg button").forEach(b=>b.className=(b.dataset.p==p?"on":"")); }
+  function applyPreset(p){
+    const w=document.getElementById("timelineWrap");
+    if(p=="custom"){
+      setActiveButton("custom");
+      w.style.display="block";
+      renderTimeline();
+      return;
+    }
+    selectedIdx=new Set(presetIndices(p));
+    setActiveButton(p);
+    w.style.display="none";
+    renderTimeline(); drawStrengths();
+  }
+  function renderTimeline(){
+    const tl=document.getElementById("meetTimeline");
+    tl.innerHTML="<div id=tlDetail style='font-size:11px;color:var(--muted);min-height:14px;margin-bottom:8px'>&nbsp;</div><div style='position:relative'><div style='position:absolute;top:5px;left:4px;right:4px;height:1px;background:var(--grid)'></div><div style='display:flex;justify-content:space-between;position:relative'>"+
+      DATA.meetorder.map((m,i)=>{
+        const attended=allIdx.includes(i), on=selectedIdx.has(i);
+        const dot=attended?(on?"background:var(--accent)":"background:var(--bg);border:1.5px solid var(--grid)"):"background:var(--bg);border:1px solid var(--grid);opacity:.35";
+        const nm=m.replace(/"/g,"&quot;");
+        return "<div class=tlDot data-idx='"+i+"' data-name=\""+nm+"\" title=\""+nm+"\" style='display:flex;flex-direction:column;align-items:center;gap:6px;"+(attended?"cursor:pointer":"cursor:default")+"'>"+
+          "<div style='width:10px;height:10px;border-radius:50%;"+dot+"'></div>"+
+          "<span style='font-size:11px;color:var(--muted);white-space:nowrap'>"+(DATA.short[m]||m)+"</span></div>";
+      }).join("")+"</div></div>";
+    const detail=document.getElementById("tlDetail");
+    tl.querySelectorAll(".tlDot").forEach(el=>{
+      const i=parseInt(el.dataset.idx);
+      el.addEventListener("mouseenter",()=>{detail.textContent=el.dataset.name;});
+      el.addEventListener("mouseleave",()=>{detail.innerHTML="&nbsp;";});
+      el.addEventListener("touchstart",()=>{detail.textContent=el.dataset.name;},{passive:true});
+      if(!allIdx.includes(i)) return;
+      el.onclick=()=>{ if(selectedIdx.has(i)) selectedIdx.delete(i); else selectedIdx.add(i); setActiveButton("custom"); renderTimeline(); drawStrengths(); };
+    });
+  }
+  document.querySelectorAll("#presetSeg button").forEach(b=>b.onclick=()=>applyPreset(b.dataset.p));
   function drawStrengths(){
     if(strengthsChartInstance){strengthsChartInstance.destroy();strengthsChartInstance=null;}
-    const idxs=[...cbHost.querySelectorAll(".meetcb:checked")].map(el=>parseInt(el.dataset.idx));
-    const summary=computeStrengths(d,idxs,strengthMode==="raw");
+    const summary=computeStrengths(d,[...selectedIdx],strengthMode==="raw");
     strengthsChart(document.getElementById("strc"),summary,strengthMode==="raw");
   }
-  cbHost.querySelectorAll(".meetcb").forEach(cb=>cb.onchange=drawStrengths);
+  applyPreset("all");
   document.getElementById("sm-diff").onclick=()=>{strengthMode="corr";drawStrengths();document.getElementById("sm-diff").className="on";document.getElementById("sm-raw").className="";};
   document.getElementById("sm-raw").onclick=()=>{strengthMode="raw";drawStrengths();document.getElementById("sm-raw").className="on";document.getElementById("sm-diff").className="";};
   drawStrengths();
