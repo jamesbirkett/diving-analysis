@@ -128,7 +128,7 @@ function diveChart(el,codes,dives,name){
 
   const yt=mode=="corr"?"vs field average":"raw 3-judge total"+(showTraining?" (training \u00d73)":"");
   const ymin=mode=="corr"?-5:(showTraining?0:10), ymax=mode=="corr"?8:(showTraining?30:28);
-  charts.push(new Chart(el,{type:"line",data:{labels,datasets:ds},
+  const chart=new Chart(el,{type:"line",data:{labels,datasets:ds},
     options:{responsive:true,maintainAspectRatio:false,interaction:{mode:"nearest",intersect:true},
       plugins:{legend:{display:false},
         tooltip:{callbacks:{title:i=>{const d=i[0];const l=Array.isArray(d.label)?d.label.join(" "):d.label;return d.dataset.label+" · "+l;},
@@ -138,7 +138,9 @@ function diveChart(el,codes,dives,name){
             return ["judges: "+e.j.join(" / "),"raw total: "+e.raw.toFixed(1),"DD "+e.dd.toFixed(1)+" \u2192 "+e.pts.toFixed(2)+" pts","vs avg: "+s+e.corr.toFixed(2)];}}}},
       scales:{y:{min:ymin,max:ymax,title:{display:true,text:yt,color:col("--faint"),font:{size:10}},ticks:{color:col("--faint"),font:{size:10}},
         grid:{color:c=>(mode=="corr"&&c.tick.value===0)?col("--zero"):col("--grid"),lineWidth:c=>(mode=="corr"&&c.tick.value===0)?1.5:1}},
-        x:{ticks:{color:col("--faint"),font:{size:10}},grid:{display:false}}}}}));
+        x:{ticks:{color:col("--faint"),font:{size:10}},grid:{display:false}}}}});
+  charts.push(chart);
+  return chart;
 }
 
 
@@ -424,8 +426,18 @@ function render(name){
 
   for(const M of stationKeys){
     const codes=Object.keys(d.dives[M]);
-    diveChart(document.getElementById("dc"+M),codes,d.dives[M],name);
-    document.getElementById("lg"+M).innerHTML=codes.map((c,i)=>"<span style='display:flex;align-items:center;gap:5px'><span style='width:22px;height:0;border-top:2.5px "+dstyle[i%5]+" "+cove[i%5]+"'></span><span class=code>"+c+"</span></span>").join("");
+    const chart=diveChart(document.getElementById("dc"+M),codes,d.dives[M],name);
+    const lg=document.getElementById("lg"+M);
+    lg.innerHTML=codes.map((c,i)=>"<span class=legendItem data-idx='"+i+"' style='display:flex;align-items:center;gap:5px;cursor:pointer;user-select:none'><span style='width:22px;height:0;border-top:2.5px "+dstyle[i%5]+" "+cove[i%5]+"'></span><span class=code>"+c+"</span></span>").join("");
+    lg.querySelectorAll(".legendItem").forEach(el=>{
+      const idx=parseInt(el.dataset.idx);
+      el.onclick=()=>{
+        const visible=chart.isDatasetVisible(idx);
+        chart.setDatasetVisibility(idx, !visible);
+        chart.update();
+        el.style.opacity = visible ? 0.35 : 1;
+      };
+    });
   }
   document.getElementById("modebox").onchange=e=>{mode=e.target.checked?"raw":"corr";render(name);};
   const tt=document.getElementById("trainToggle");
