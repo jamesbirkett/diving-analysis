@@ -47,7 +47,7 @@ const dash=[[],[6,3],[2,3],[8,3,2,3],[1,2]];
 const dstyle=["solid","dashed","dotted","dashed","dotted"];
 const Mlab={"0":"Poolside","1":"1m springboard","3":"3m springboard"};
 const Mcol={"0":"#2a78d6","1":"#eb6834","2":"#eb6834","3":"#1baf7a"};
-let charts=[],mode="corr",posmode="pct",bandChartInstance=null,strengthsChartInstance=null,includeTraining=false;
+let charts=[],mode="corr",strengthMode="corr",posmode="pct",bandChartInstance=null,strengthsChartInstance=null,includeTraining=false;
 const cs=getComputedStyle(document.documentElement);
 const col=n=>cs.getPropertyValue(n).trim();
 function xlabels(){return DATA.meetorder.map(m=>[DATA.short[m],m]);}
@@ -313,6 +313,7 @@ function render(name){
   if(nMeets<2){h+="<div class=empty>Only one meet on record — no progression to show. Per-dive detail below.</div>";}
   h+="<h3>Strengths &amp; weaknesses (all dives, ranked)</h3><p class=sub style='margin:-2px 0 6px'>Untick meets to see how the ranking shifts over a different window.</p>";
   h+="<div class=row id=meetCbs style='margin:6px 0 4px'></div>";
+  h+="<div class=seg><button id=sm-diff data-m=corr class=\""+(strengthMode=="corr"?"on":"")+"\">difference from average</button><button id=sm-raw data-m=raw class=\""+(strengthMode=="raw"?"on":"")+"\">raw scores</button></div>";
   h+="<div class=legend><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#2a78d6'></span>poolside</span><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#eb6834'></span>1m</span><span style='display:flex;align-items:center;gap:5px'><span style='width:10px;height:10px;border-radius:2px;background:#1baf7a'></span>3m</span></div>";
   h+="<div class=panel style='height:auto'><canvas id=strc></canvas></div>";
   h+="<h3>Score vs field spread</h3><p class=sub style='margin:-2px 0 6px'>Pick a dive to see the diver's score against the field's middle 50% (shaded) for that dive, at each meet.</p>";
@@ -355,10 +356,12 @@ function render(name){
   function drawStrengths(){
     if(strengthsChartInstance){strengthsChartInstance.destroy();strengthsChartInstance=null;}
     const idxs=[...cbHost.querySelectorAll(".meetcb:checked")].map(el=>parseInt(el.dataset.idx));
-    const summary=computeStrengths(d,idxs,mode==="raw");
-    strengthsChart(document.getElementById("strc"),summary,mode==="raw");
+    const summary=computeStrengths(d,idxs,strengthMode==="raw");
+    strengthsChart(document.getElementById("strc"),summary,strengthMode==="raw");
   }
   cbHost.querySelectorAll(".meetcb").forEach(cb=>cb.onchange=drawStrengths);
+  document.getElementById("sm-diff").onclick=()=>{strengthMode="corr";drawStrengths();document.getElementById("sm-diff").className="on";document.getElementById("sm-raw").className="";};
+  document.getElementById("sm-raw").onclick=()=>{strengthMode="raw";drawStrengths();document.getElementById("sm-raw").className="on";document.getElementById("sm-diff").className="";};
   drawStrengths();
   const bandOpts=[];
   for(const M of Object.keys(d.dives).sort()){for(const c of Object.keys(d.dives[M])){bandOpts.push({M,c});}}
